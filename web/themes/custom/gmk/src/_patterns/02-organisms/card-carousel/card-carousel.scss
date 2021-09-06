@@ -1,0 +1,50 @@
+@import '../../../sass/variables';
+
+.card-carousel {
+  position: relative;
+
+  &:hover {
+    .tns-controls button {
+      opacity: 1;
+    }
+  }
+
+  &__inner > .field__item {
+    padding: 0 8px;
+  }
+
+  .tns-inner {
+    padding-bottom: 24px;
+  }
+
+  .tns-controls {
+    button {
+      opacity: 0;
+      transition: opacity $transition-duration;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 1;
+      width: 48px;
+      height: 48px;
+      background-color: $color-white;
+      border: 1px solid $color-light-grey;
+      border-radius: $border-radius;
+      font-size: 0;
+      padding: 4px;
+      background-repeat: no-repeat;
+      background-size: 24px;
+      background-position: center;
+    }
+
+    button[data-controls="prev"] {
+      left: 0;
+      background-image: url(../../../icons/left.svg);
+    }
+    button[data-controls="next"] {
+      right: 0;
+      background-image: url(../../../icons/right.svg);
+    }
+
+  }
+}

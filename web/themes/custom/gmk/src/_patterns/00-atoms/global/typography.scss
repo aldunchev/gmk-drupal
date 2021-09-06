@@ -1,0 +1,124 @@
+/**
+ * @file
+ * Site typography styles.
+ */
+
+@import "../../../sass/variables";
+
+%heading {
+  margin: 16px 0 14px;
+  font-family: $primary-font;
+  line-height: 1.25;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0;
+  color: $primary-text-color;
+}
+
+%field-title-with_border {
+  position: relative;
+
+  &:after {
+    display: block;
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 2px;
+    background-color: $color-primary;
+  }
+}
+
+body {
+  font-family: $primary-font;
+  font-size: $primary-font-size;
+  line-height: $primary-line-height;
+  background-color: $body-color;
+}
+
+a {
+  text-decoration: none;
+  color: $link-color;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+h1,
+.h1 {
+  @extend %heading;
+  margin: 16px 0 32px;
+  font-size: $font-size-h1 - 4;
+
+  @include breakpoint($bp-medium) {
+    font-size: $font-size-h1;
+  }
+}
+
+h2,
+.h2 {
+  @extend %heading;
+  margin: 16px 0 32px;
+  font-size: $font-size-h2 - 4;
+
+  @include breakpoint($bp-medium) {
+    font-size: $font-size-h2;
+  }
+}
+
+h3,
+.h3 {
+  @extend %heading;
+  font-size: $font-size-h3 - 4;
+
+  @include breakpoint($bp-medium) {
+    font-size: $font-size-h3;
+  }
+}
+
+h4,
+.h4 {
+  @extend %heading;
+  font-size: $font-size-h4 - 2;
+
+  @include breakpoint($bp-medium) {
+    font-size: $font-size-h4;
+  }
+}
+
+h5,
+.h5 {
+  @extend %heading;
+  font-size: $font-size-h5 - 2;
+
+  @include breakpoint($bp-medium) {
+    font-size: $font-size-h5;
+  }
+}
+
+h6,
+h6 {
+  @extend %heading;
+  font-size: $font-size-h6 - 2;
+
+  @include breakpoint($bp-medium) {
+    font-size: $font-size-h6;
+  }
+}
+
+.main-section {
+  .h2--large {
+    @extend %field-title-with_border;
+    text-align: center;
+    font-size: $font-size-h2 - 4;
+    margin-top: 0;
+
+    @include breakpoint($bp-medium) {
+      font-size: $font-size-h2-landing;
+    }
+  }
+}

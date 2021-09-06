@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * @file
+ * Custom theme logic for templates.
+ */
+
+use Drupal\views\Views;
+
+require_once 'preprocesses/paragraphs.php';
+require_once 'preprocesses/region.php';
+require_once 'preprocesses/block.php';
+require_once 'preprocesses/taxonomy.php';
+require_once 'preprocesses/view.php';

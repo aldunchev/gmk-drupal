@@ -1,0 +1,123 @@
+global:
+  version: VERSION
+  css:
+    base:
+      src/_patterns/00-atoms/global/typography.css: {}
+      src/_patterns/00-atoms/global/global.css: {}
+
+font:
+  version: VERSION
+  css:
+    base:
+      src/css/fonts.css: {}
+
+grid:
+  version: VERSION
+  css:
+    base:
+      src/_patterns/03-layout/grid/grid.css: {}
+
+header:
+  version: VERSION
+  css:
+    component:
+      src/_patterns/02-organisms/header/header.css: {}
+  js:
+    src/_patterns/02-organisms/header/header.js: {}
+  dependencies:
+    - gmk/body-scroll-lock
+
+footer:
+  version: VERSION
+  css:
+    component:
+      src/_patterns/02-organisms/footer/footer.css: {}
+
+tiny-slider:
+  versinon: 2.0
+  js: 
+    node_modules/tiny-slider/dist/min/tiny-slider.js: {}
+  css:
+    base:
+      node_modules/tiny-slider/dist/tiny-slider.css: {}
+
+hero:
+  version: VERSION
+  css:
+    component:
+      src/_patterns/02-organisms/hero/hero.css: {}
+  js:
+    src/_patterns/02-organisms/hero/hero.js: {}
+  dependencies:
+    - gmk/tiny-slider
+
+button:
+  version: VERSION
+  css:
+    component:
+      src/_patterns/00-atoms/button/button.css: {}
+
+brands:
+  version: VERSION
+  css:
+    component:
+      src/_patterns/02-organisms/brands/brands.css: {}
+  js:
+    src/_patterns/02-organisms/brands/brands.js: {}
+
+card-carousel:
+  version: VERSION
+  css:
+    component:
+      src/_patterns/02-organisms/card-carousel/card-carousel.css: {}
+  js:
+    src/_patterns/02-organisms/card-carousel/card-carousel.js: {}
+  dependencies:
+    - gmk/tiny-slider
+
+card:
+  version: VERSION
+  css:
+    component:
+      src/_patterns/01-molecules/card/card.css: {}
+  dependencies:
+    - gmk/button
+
+quick-links:
+  version: VERSION
+  css:
+    component:
+      src/_patterns/01-molecules/quick-links/quick-links.css: {}
+
+vertical-spacing:
+  version: VERSION
+  css:
+    component:
+      src/_patterns/03-layout/vertical-spacing/vertical-spacing.css: {}
+
+theme:
+  version: VERSION
+  css:
+    component:
+      src/_patterns/03-layout/theme/theme.css: {}
+
+top-menu:
+  version: VERSION
+  css:
+    component:
+      src/_patterns/01-molecules/top-menu/top-menu.css: {}
+  js:
+    src/_patterns/01-molecules/top-menu/top-menu.js: {}
+
+card-cta:
+  version: VERSION
+  css:
+    component:
+      src/_patterns/01-molecules/card-cta/card-cta.css: {}
+  dependencies:
+    - gmk/button
+
+body-scroll-lock:
+  version: VERSION
+  js:
+    node_modules/body-scroll-lock/lib/bodyScrollLock.min.js: {}

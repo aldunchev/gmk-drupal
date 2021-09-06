@@ -1,0 +1,22 @@
+@import '../../../sass/variables';
+
+.node--view-mode-card {
+  box-shadow: $box-shadow;
+  background-color: $color-white;
+  border-radius: $border-radius;
+  height: 100%;
+
+  .card__info {
+    padding: 24px;
+  }
+
+  .card__title {
+    margin-top: 0;
+    font-size: $font-size-h4;
+  }
+
+  img {
+    display: block;
+    border-radius: $border-radius $border-radius 0 0;
+  }
+}

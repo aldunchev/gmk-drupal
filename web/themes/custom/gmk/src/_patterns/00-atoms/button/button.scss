@@ -1,0 +1,22 @@
+@import "../../../sass/variables";
+
+.button {
+  display: inline-block;
+  font-size: $primary-font-size;
+  color: $color-white;
+  padding: 16px 24px;
+  line-height: 1;
+  text-align: center;
+  border-radius: $border-radius;
+  font-weight: 600;
+  text-transform: uppercase;
+
+  &--primary {
+    background-color: $color-secondary;
+
+    &:hover {
+      background-position: right center;
+      text-decoration: none;
+    }
+  }
+}

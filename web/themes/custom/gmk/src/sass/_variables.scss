@@ -1,0 +1,75 @@
+/**
+ * @file
+ * This is a copy of mac3_theme, change according to the brand specific.
+ */
+
+@import "breakpoint";
+
+// Color variables
+$body-color: #fff;
+$primary-text-color: #454545;
+$color-light-grey: #cacaca;
+
+// Spacings
+$main-section-padding: 56px;
+$spacing-xs: 8px;
+$spacing-s: 12px;
+$spacing-m: 16px;
+
+// Colors
+$color-primary: var(--color-primary);
+$color-secondary: var(--color-secondary);
+$color-secondary-rgb: var(--color-secondary-rgb);
+$color-red: #ff2c2c;
+$link-color: #454545;
+$color-white: #fff;
+$color-black: #000;
+
+// Typography variables.
+$primary-font: "Nunito", sans-serif;
+$primary-font-size: 16px;
+$primary-line-height: 1.5;
+
+// Typographic Scale
+$font-size-xxxl: 48px;
+$font-size-xxl: 40px;
+$font-size-xl: 32px;
+$font-size-lg: 24px;
+$font-size-md: 18px;
+$font-size-sm: $primary-font-size;
+$font-size-xs: 14px;
+$font-size-xxs: 12px;
+
+// Font weight
+$bold: 600;
+$bolder: 800;
+
+// Heading Sizes
+$font-size-h1: 36px;
+$font-size-h2: 32px;
+$font-size-h3: 28px;
+$font-size-h4: 24px;
+$font-size-h5: 22px;
+$font-size-h6: 20px;
+
+// When using landing styles option
+$font-size-h1-landing: 60px;
+$font-size-h2-landing: 50px;
+
+// Default Breakpoints
+$bp-small: 600px;
+$bp-medium: 1000px;
+$bp-large: 1200px;
+$bp-xxlarge: 1400px;
+
+// Transitions
+$transition-duration: 0.3s;
+
+$container-max: 1920px;
+$container-wide: 1440px;
+$container-default: 1280px;
+$container-small: 960px;
+
+// Misc
+$border-radius: 6px;
+$box-shadow: 0 5px 20px 0 rgba($color-black, .1), 0 5px 5px 0 rgba($color-black, .1);

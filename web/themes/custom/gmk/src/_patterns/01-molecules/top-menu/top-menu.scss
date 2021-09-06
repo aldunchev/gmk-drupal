@@ -1,0 +1,60 @@
+/**
+ * @file
+ * Top menu used for navigating between products/brands sections.
+ */
+
+// Check if adding BG is possible by term.
+
+@import "../../../sass/variables";
+
+.top-menu {
+  padding: $spacing-s 0 0;
+  background-color: $color-secondary;
+
+  &--sticky {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    right: 0;
+    z-index: 9;
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+  }
+
+  &__item {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 8px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    a {
+      display: block;
+      padding: $spacing-s $spacing-s 20px;
+      font-weight: 600;
+      font-size: $font-size-h5;
+      border-bottom: 2px solid transparent;
+      transition: border-color $transition-duration;
+      color: $color-white;
+  
+      &:hover {
+        text-decoration: none;
+        border-color: $color-primary;
+      }
+
+      &.active-link {
+        border-color: $color-primary;
+      }
+    }
+  }
+}
+
+.top-menu-padding {
+  padding-top: 69px;
+}

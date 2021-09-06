@@ -1,0 +1,17 @@
+@import "../../../sass/variables";
+
+.block-type__quick-links {
+  text-align: center;
+
+  .field--name-field-links {
+    display: flex;
+    justify-content: center;
+
+    .field__item {
+      a {
+        padding: 10px;
+        font-size: $font-size-md;
+      }
+    }
+  }
+}

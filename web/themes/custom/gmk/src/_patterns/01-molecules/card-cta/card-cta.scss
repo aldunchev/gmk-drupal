@@ -1,0 +1,57 @@
+/**
+ * @file
+ * Styles for cta card.
+ * Used by taxonomy listing.
+ */
+
+@import '../../../sass/variables';
+
+.card-cta {
+  position: relative;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+  overflow: hidden;
+  height: 100%;
+
+  @include breakpoint($bp-large) {
+    &:hover {
+      img {
+        transform: scale(1.02);
+      }
+    }
+  }
+
+  &__title {
+    color: $color-white;
+    font-weight: $bold;
+    font-size: $font-size-h1;
+    margin: 0;
+    text-align: center;
+
+    a {
+      color: inherit;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  &__link {
+    display: block;
+  }
+
+  &__info {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    transform: translateY(-50%);
+    padding: $spacing-xs;
+    background-color: rgba($color-secondary-rgb, 0.1);
+  }
+
+  img {
+    transition: transform $transition-duration;
+    border-radius: $border-radius;
+  }
+}

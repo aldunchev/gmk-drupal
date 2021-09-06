@@ -1,0 +1,62 @@
+@import "../../../sass/variables";
+
+.site-footer {
+  border-top: 2px solid $color-primary;
+  background-color: $color-white;
+
+  .region-footer-mega {
+    display: flex;
+
+    @include breakpoint(max-width $bp-large - 1) {
+      flex-wrap: wrap;
+      padding: 0 16px;
+    }
+
+    > .block {
+      flex: 1 0 50%;
+
+      @include breakpoint($bp-large) {
+        flex: 1 0 33.33333%;
+      }
+
+      h2 {
+        margin-bottom: 16px;
+        font-weight: $bold;
+        font-size: $font-size-md;
+      }
+    }
+  }
+
+  .menu {
+    list-style: none;
+    padding-left: 0;
+  }
+}
+
+.footer {
+  &--mega {
+    padding-top: $main-section-padding;
+    padding-bottom: $main-section-padding;
+  }
+
+  &--basic {
+    border-top: 1px solid $color-primary;
+    padding: 8px 0;
+    background-color: $color-secondary;
+    color: $color-white;
+
+    .region-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .block-system-branding-block {
+      img {
+        @include breakpoint(max-width $bp-large - 1) {
+          max-width: 80px;
+        }
+      }
+    }
+  }
+}
