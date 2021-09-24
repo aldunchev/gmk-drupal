@@ -15,9 +15,12 @@ $main-section-padding: 56px;
 $spacing-xs: 8px;
 $spacing-s: 12px;
 $spacing-m: 16px;
+$spacing-l: 20px;
+$spacing-xl: 32px;
 
 // Colors
 $color-primary: var(--color-primary);
+$color-primary-hover: var(--color-primary-hover);
 $color-secondary: var(--color-secondary);
 $color-secondary-rgb: var(--color-secondary-rgb);
 $color-red: #ff2c2c;
@@ -68,7 +71,7 @@ $transition-duration: 0.3s;
 $container-max: 1920px;
 $container-wide: 1440px;
 $container-default: 1280px;
-$container-small: 960px;
+$container-small: 800px;
 
 // Misc
 $border-radius: 6px;

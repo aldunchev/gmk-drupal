@@ -47,9 +47,16 @@
     main_section ? 'main-section',
   ]
 %}
+{% set container_attributes = create_attribute() %}
+
+{% set container_classes = [
+  container ? 'container',
+  container_small ? 'container container--small',
+] %}
+
 {% block paragraph %}
   <div{{ attributes.addClass(classes) }}>
-    {% if container %} <div class="container">{% endif %}
+    {% if container %} <div {{ container_attributes.addClass(container_classes) }}>{% endif %}
       {% block content %}
         {{ content }}
       {% endblock %}

@@ -1,0 +1,35 @@
+/**
+ * @file
+ * Styles for horizontal scroll js.
+ */
+
+@import "../../../sass/variables";
+
+.overflow-wrapper {
+  --overflow-gradient: linear-gradient(to right, rgba(240, 240, 240, 0.2) 0%, rgb(240, 240, 240) 100%);
+  --overflow-after-width: 50px;
+
+  @include breakpoint(max-width $bp-xxlarge - 1) {
+    position: relative;
+  
+    &::after {
+      content: '';
+      display: block;
+      width: var(--overflow-after-width);
+      height: 100%;
+      position: absolute;
+      top: 0;
+      right: 0;
+      background: var(--overflow-gradient);
+    }
+  
+    &--end::after {
+      display: none;
+    }
+  }
+}
+
+.overflow-element {
+  overflow-x: auto;
+  white-space: nowrap;
+}

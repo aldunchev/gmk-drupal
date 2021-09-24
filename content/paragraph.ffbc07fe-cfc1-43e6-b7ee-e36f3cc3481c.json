@@ -1,0 +1,67 @@
+{
+    "uuid": [
+        {
+            "value": "ffbc07fe-cfc1-43e6-b7ee-e36f3cc3481c"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "bg"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "media",
+            "target_type": "paragraphs_type",
+            "target_uuid": "0b18a690-174b-4599-adc0-b516d389fa3a"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2021-09-08T10:08:57+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "field_landing_page_title": [
+        {
+            "value": true
+        }
+    ],
+    "field_paragraph_media": [
+        {
+            "target_type": "media",
+            "target_uuid": "e2076d8a-b272-41be-a31d-ddb81342695e"
+        }
+    ],
+    "field_paragraph_title": [
+        {
+            "value": "\u041f\u0440\u043e\u0438\u0437\u0445\u043e\u0434 \u0438 \u0441\u044a\u0441\u0442\u0430\u0432\u043a\u0438",
+            "format": "basic_html"
+        }
+    ],
+    "field_theme_light": [
+        {
+            "value": false
+        }
+    ]
+}

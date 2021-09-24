@@ -8,21 +8,33 @@
 @import "../../../sass/variables";
 
 .top-menu {
-  padding: $spacing-s 0 0;
   background-color: $color-secondary;
 
   &--sticky {
     position: fixed;
-    top: 70px;
+    top: 60px;
     left: 0;
     right: 0;
     z-index: 9;
+    
+    @include breakpoint($bp-medium) {
+      top: 70px;
+    }
+  }
+
+  &__inner {
+    --overflow-gradient: linear-gradient(to right, rgba(58, 54, 120, 0.2) 0%, rgba(58, 54, 120, 100%) 100%);
+    --overflow-after-width: 80px;
+    padding: $spacing-s 0 0;
   }
 
   &__content {
     display: flex;
     align-items: center;
-    justify-content: center;;
+    
+    @include breakpoint($bp-medium) {
+      justify-content: center;
+    }
   }
 
   &__item {
@@ -37,12 +49,16 @@
     a {
       display: block;
       padding: $spacing-s $spacing-s 20px;
+      font-size: $font-size-md;
       font-weight: 600;
-      font-size: $font-size-h5;
       border-bottom: 2px solid transparent;
       transition: border-color $transition-duration;
       color: $color-white;
-  
+
+      @include breakpoint($bp-medium) { 
+        font-size: $font-size-h5;
+      }
+
       &:hover {
         text-decoration: none;
         border-color: $color-primary;

@@ -15,7 +15,7 @@
   box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
 
   @include breakpoint(max-width $bp-large - 1) {
-    padding: 18px 0;
+    padding: 30px 0;
   }
 
   .block-system-branding-block {
@@ -126,7 +126,11 @@
     a,
     span {
       display: block;
-      font-weight: bold;
+
+      @include breakpoint($bp-large) {
+        display: block;
+        font-weight: $bold;
+      }
 
       &.is-active {
         @include breakpoint(max-width $bp-large - 1) {
@@ -191,6 +195,10 @@
   }
 
   .menu-item--back {
+    @include breakpoint($bp-large) {
+      display: none !important;
+    }
+
     position: fixed;
     top: 0;
     left: 0;
@@ -250,7 +258,6 @@
       padding: 4px 8px;
 
       &.is-active {
-        font-weight: bold;
         border-bottom: 1px solid $color-primary;
       }
     }

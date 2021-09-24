@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "2802a989-d351-48e3-a7d0-ce6027c76e04"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "bg"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "87d0dd3e-5f59-45e1-81c8-61497fa5eef6"
+        }
+    ],
+    "filename": [
+        {
+            "value": "snowflake.svg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2021-09\/snowflake.svg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/svg+xml"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 2798
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2021-09-08T08:10:20+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2021-09-08T08:10:37+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

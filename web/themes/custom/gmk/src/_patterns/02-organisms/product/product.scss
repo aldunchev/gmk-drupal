@@ -1,0 +1,79 @@
+/**
+ * @file
+ * Product page styling.
+ */
+
+@import '../../../sass/variables';
+
+.product--full {
+  h1 {
+    margin-top: $spacing-xl;
+  }
+  
+  .field--label-inline {
+    display: flex;
+    align-items: center;
+  
+    .field__label {
+      font-weight: normal;
+    }
+  
+    .field__item {
+      font-weight: $bold;
+      font-size: $font-size-md;
+    }
+  }
+  
+  .field--name-body {
+    margin-bottom: $spacing-l;
+    border-bottom: 1px solid $color-primary;
+    font-size: $font-size-md;
+  
+    p, 
+    div,
+    ul,
+    ol,
+    span {
+      font-size: $font-size-md;
+    }
+  }
+  
+  .field--name-field-weight,
+  .field--name-field-units-pack,
+  .field--name-field-units-in-pallet {
+    position: relative;
+    margin-bottom: $spacing-xl;
+    padding-left: 52px;
+  
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+      width: 32px;
+      height: 32px;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
+  
+  .field--name-field-weight {
+    &::before {
+      background-image: url('../../../icons/weight.svg');
+    }
+  }
+  
+  .field--name-field-units-pack {
+    &::before {
+      background-image: url('../../../icons/box.svg');
+    }
+  }
+  
+  .field--name-field-units-in-pallet {
+    &::before {
+      background-image: url('../../../icons/pallet.svg');
+    }
+  }
+}

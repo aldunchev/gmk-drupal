@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "baff7980-ffbc-425e-b399-0dc054448f9b"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "bg"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "87d0dd3e-5f59-45e1-81c8-61497fa5eef6"
+        }
+    ],
+    "filename": [
+        {
+            "value": "worldwide.svg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2021-09\/worldwide.svg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/svg+xml"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 6248
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2021-09-08T08:11:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2021-09-08T08:11:17+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

@@ -45,14 +45,13 @@
     'field--label-' ~ label_display,
   ]
 %}
-{# item.content['#options']['attributes'] #}
+{% set button_attributes = create_attribute() %}
+{% set button_classes = ['button', 'button--primary'] %}
 {{ attach_library('gmk/button') }}
 {% for item in items %}
   <div{{ attributes.addClass(classes, 'field__item') }}>
-    {% include "@atoms/button/button.twig" with {
-      url: item.content['#url'],
-      text: item.content['#title'],
-      classes: 'button button--primary',
-    } %}
+    {% include "@atoms/button/button.twig" with { 
+      text: item.content['#title']|render, 
+      button_attributes: button_attributes.setAttribute('href', item.content['#url']|render).addClass(button_classes) } %}
   </div>
 {% endfor %}

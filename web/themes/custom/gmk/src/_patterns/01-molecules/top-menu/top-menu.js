@@ -38,8 +38,10 @@
     event.preventDefault();
     let anchorHash = event.target.hash;
     let anchor = document.querySelector(anchorHash);
-    let activeItem = event.target;
+    let anchorBoundingClient = anchor.getBoundingClientRect();
+    let body = document.body.getBoundingClientRect();
 
+    let activeItem = event.target;
     items.forEach(function (currentItem) {
       currentItem.classList.remove('active-link');
     });
@@ -47,11 +49,10 @@
     activeItem.classList.add('active-link')
 
     window.scroll({
-      top: anchor.offsetTop - 160,
+      top: (anchorBoundingClient.top - body.top) - 160,
       left: 0,
       behavior: 'smooth'
     });
-
   }
 
   const topMenuItems = document.querySelectorAll('.top-menu__item');

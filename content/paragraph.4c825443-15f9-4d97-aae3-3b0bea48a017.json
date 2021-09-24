@@ -1,0 +1,74 @@
+{
+    "uuid": [
+        {
+            "value": "4c825443-15f9-4d97-aae3-3b0bea48a017"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "bg"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "top_products",
+            "target_type": "paragraphs_type",
+            "target_uuid": "1f46152f-0243-4cdd-b9f3-3aa142545e38"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2021-08-17T11:12:54+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [],
+    "field_landing_page_title": [
+        {
+            "value": true
+        }
+    ],
+    "field_paragraph_title": [
+        {
+            "value": "\u0422\u043e\u043f \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u0438",
+            "format": "basic_html"
+        }
+    ],
+    "field_top_products": [
+        {
+            "target_type": "node",
+            "target_uuid": "e04183ab-8af7-43ba-8b70-f8db29b63cff"
+        },
+        {
+            "target_type": "node",
+            "target_uuid": "34d563f1-bf75-464a-be5e-352e5b6a02d8"
+        },
+        {
+            "target_type": "node",
+            "target_uuid": "2733e520-e68f-403c-972e-6e4c055f63ea"
+        },
+        {
+            "target_type": "node",
+            "target_uuid": "cde124a8-00b0-4de0-b80d-f07b76c7039d"
+        },
+        {
+            "target_type": "node",
+            "target_uuid": "e04183ab-8af7-43ba-8b70-f8db29b63cff"
+        }
+    ]
+}

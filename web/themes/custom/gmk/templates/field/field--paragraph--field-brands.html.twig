@@ -53,8 +53,8 @@
   ]
 %}
 
-<div class="brands-wrapper">
-  <div{{ attributes.addClass(classes, 'field__items') }}>
+<div class="brands-wrapper overflow-wrapper">
+  <div{{ attributes.addClass(classes, 'field__items', 'overflow-element') }}>
     {% for item in items %}
       <div{{ item.attributes.addClass('field__item') }}>{{ item.content }}</div>
     {% endfor %}

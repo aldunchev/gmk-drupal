@@ -11,12 +11,42 @@
   font-weight: 600;
   text-transform: uppercase;
 
+  &:hover {
+    text-decoration: none;
+  }
+
   &--primary {
-    background-color: $color-secondary;
+    transition: background-color $transition-duration - 0.1;
+    background-color: $color-primary;
 
     &:hover {
-      background-position: right center;
-      text-decoration: none;
+      background-color: $color-primary-hover;
+    }
+  }
+
+  &--cta {
+    padding-right: 0;
+    padding-left: 0;
+    border-bottom: 2px solid $color-primary;
+    border-radius: 0;
+    color: $primary-text-color;
+    transition: border $transition-duration, padding $transition-duration;
+
+
+    svg {
+      width: 16px;
+      height: 16px;
+      margin-left: 14px;
+      fill: $color-primary;
+      transition: transform $transition-duration;
+    }
+
+    &:hover {
+      padding-right: 10px;
+
+      svg {
+        transform: translateX(10px);
+      }
     }
   }
 }

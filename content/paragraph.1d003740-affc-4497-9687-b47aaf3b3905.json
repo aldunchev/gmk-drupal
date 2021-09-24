@@ -1,0 +1,83 @@
+{
+    "uuid": [
+        {
+            "value": "1d003740-affc-4497-9687-b47aaf3b3905"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "bg"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "brands",
+            "target_type": "paragraphs_type",
+            "target_uuid": "0d2cb7b0-4b70-4b09-bbf0-bc7841cd528a"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2021-08-16T11:02:12+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [],
+    "field_brands": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "73f3922c-3457-4dd7-ba8d-02348661d019"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "ec7f53d9-4b36-486f-b708-827bb77b451d"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "103d82c7-c908-4e52-a30c-949887887c30"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "76f03e31-4a42-4270-8ade-45a597e1e633"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "fa9d5d33-8c2f-4451-85c4-065b2429cb62"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "0920a74f-1b5d-436f-b4ff-33d5552fbb9e"
+        }
+    ],
+    "field_landing_page_title": [
+        {
+            "value": true
+        }
+    ],
+    "field_paragraph_title": [
+        {
+            "value": "\u041d\u0430\u0448\u0438\u0442\u0435 \u043c\u0430\u0440\u043a\u0438",
+            "format": "basic_html"
+        }
+    ],
+    "field_theme_light": [
+        {
+            "value": true
+        }
+    ]
+}

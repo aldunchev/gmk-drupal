@@ -77,6 +77,8 @@
     view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
   ]
 %}
+{% set button_attributes = create_attribute() %}
+{% set button_classes = ['button', 'button--cta'] %}
 {{ attach_library('gmk/card') }}
 <article{{ attributes.addClass(classes) }}>
   <div{{ content_attributes.addClass('node__content') }}>
@@ -85,14 +87,15 @@
     </a>
     <div class="card__info">
       {{ title_prefix }}
-      <h2{{ title_attributes.addClass('card__title') }}>
-        <a href="{{ url }}" rel="bookmark">{{ label }}</a>
-      </h2>
+      <h3{{ title_attributes.addClass('card__title') }}><a href="{{ url }}" rel="bookmark">{{ label }}</a></h3>
       {{ title_suffix }}
       {{ content|without('field_thumbnail')}}
 
       <div class="card__footer">
-        <a href="{{ url }}" class="button button--primary">{{ 'View more'|t }}</a>
+        {% include "@atoms/button/button.twig" with { 
+          arrow: true, 
+          text: 'View more'|t, 
+          button_attributes: button_attributes.setAttribute('href', url).addClass(button_classes) } %}
       </div>
     </div>
   </div>

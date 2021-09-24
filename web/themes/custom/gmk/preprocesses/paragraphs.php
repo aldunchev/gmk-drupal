@@ -24,6 +24,10 @@ function gmk_preprocess_paragraph(&$variables) {
     case 'top_products':
       $variables['#attached']['library'][] = 'gmk/card-carousel';
       break;
+
+    case 'media':
+      $variables['container_small'] = true;
+      break;
   }
 
   if ($paragraph->hasField('field_landing_page_title')) {

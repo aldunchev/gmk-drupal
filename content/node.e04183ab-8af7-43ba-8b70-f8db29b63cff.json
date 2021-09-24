@@ -1,0 +1,137 @@
+{
+    "uuid": [
+        {
+            "value": "e04183ab-8af7-43ba-8b70-f8db29b63cff"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "bg"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "product",
+            "target_type": "node_type",
+            "target_uuid": "0fb63e29-21e8-4065-9476-a22bf36945d2"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2021-09-12T16:00:54+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "87d0dd3e-5f59-45e1-81c8-61497fa5eef6"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "87d0dd3e-5f59-45e1-81c8-61497fa5eef6"
+        }
+    ],
+    "title": [
+        {
+            "value": "Pizza 4 cheese"
+        }
+    ],
+    "created": [
+        {
+            "value": "2021-08-09T11:40:59+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2021-09-12T16:00:54+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": true
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>\u041e\u043f\u0438\u0441\u0430\u043d\u0438\u0435 \u043d\u0430 \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u0430<\/p>\r\n",
+            "format": "basic_html",
+            "summary": ""
+        }
+    ],
+    "field_brand": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "76f03e31-4a42-4270-8ade-45a597e1e633"
+        }
+    ],
+    "field_category": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "06933d29-5808-43eb-bae4-b96c803742ad"
+        }
+    ],
+    "field_horeca": [],
+    "field_media": [
+        {
+            "target_type": "media",
+            "target_uuid": "6e26f18e-8400-4ac6-b429-9ae2f4f10d1c"
+        }
+    ],
+    "field_thumbnail": [
+        {
+            "target_type": "media",
+            "target_uuid": "6e26f18e-8400-4ac6-b429-9ae2f4f10d1c"
+        }
+    ],
+    "field_units_in_pallet": [
+        {
+            "value": "200"
+        }
+    ],
+    "field_units_pack": [
+        {
+            "value": "10"
+        }
+    ],
+    "field_weight": [
+        {
+            "value": "320g"
+        }
+    ]
+}

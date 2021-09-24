@@ -55,3 +55,7 @@ libraries-override:
         css/components/more-link.css: false
         css/components/pager.css: false
         css/components/textarea.css: false
+
+libraries-extend:
+  media/oembed.formatter:
+    - gmk/responsive-video

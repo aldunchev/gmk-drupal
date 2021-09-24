@@ -1,0 +1,116 @@
+{
+    "uuid": [
+        {
+            "value": "718cede5-8997-494c-b341-3648baa2625e"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "bg"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "icon",
+            "target_type": "taxonomy_vocabulary",
+            "target_uuid": "c4b3ad0e-2b6c-4840-aea7-ef971ac9adfe"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2021-09-03T12:20:12+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "name": [
+        {
+            "value": "\u0411\u044a\u0440\u0437\u0438\u043d\u0430"
+        }
+    ],
+    "description": [
+        {
+            "value": "<p>&nbsp;<\/p>\r\n\r\n<p><span>\u0418\u043c\u0430\u0442\u0435 \u0432\u0440\u0435\u043c\u0435 \u0434\u0430 \u043f\u0440\u043e\u044f\u0432\u0438\u0442\u0435 \u0442\u0432\u043e\u0440\u0447\u0435\u0441\u0442\u0432\u043e, \u043a\u043e\u0433\u0430\u0442\u043e \u0432\u043a\u0443\u0441\u043d\u0438\u0442\u0435 \u0441\u044a\u0441\u0442\u0430\u0432\u043a\u0438, \u043a\u043e\u0438\u0442\u043e \u043c\u043e\u0436\u0435\u0442\u0435 \u0434\u0430 \u043f\u0440\u0438\u0433\u043e\u0442\u0432\u0438\u0442\u0435 \u0431\u044a\u0440\u0437\u043e \u0438 \u043b\u0435\u0441\u043d\u043e, \u0441\u0430 \u0432\u0438 \u043f\u043e\u0434 \u0440\u044a\u043a\u0430 <\/span><\/p>\r\n",
+            "format": "basic_html"
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "parent": [
+        {
+            "target_id": null
+        }
+    ],
+    "changed": [
+        {
+            "value": "2021-09-08T08:28:22+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "bg",
+            "pathauto": 0
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false
+        }
+    ],
+    "content_translation_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "87d0dd3e-5f59-45e1-81c8-61497fa5eef6"
+        }
+    ],
+    "content_translation_created": [
+        {
+            "value": "2021-09-03T12:20:12+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "field_icon": [
+        {
+            "alt": "time",
+            "title": "",
+            "width": 64,
+            "height": 64,
+            "target_type": "file",
+            "target_uuid": "bd1964a4-570f-451c-a74e-138011c3acc8"
+        }
+    ],
+    "field_taxonomy_link": [
+        {
+            "uri": "entity:node\/c3e55c87-f717-42bc-8b4e-6921dd569ecd",
+            "title": "Link",
+            "options": []
+        }
+    ]
+}

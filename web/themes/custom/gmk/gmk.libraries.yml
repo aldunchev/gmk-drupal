@@ -62,8 +62,8 @@ brands:
   css:
     component:
       src/_patterns/02-organisms/brands/brands.css: {}
-  js:
-    src/_patterns/02-organisms/brands/brands.js: {}
+  dependencies:
+    - gmk/overflow-scroller
 
 card-carousel:
   version: VERSION
@@ -108,6 +108,8 @@ top-menu:
       src/_patterns/01-molecules/top-menu/top-menu.css: {}
   js:
     src/_patterns/01-molecules/top-menu/top-menu.js: {}
+  dependencies:
+    - gmk/overflow-scroller
 
 card-cta:
   version: VERSION
@@ -121,3 +123,29 @@ body-scroll-lock:
   version: VERSION
   js:
     node_modules/body-scroll-lock/lib/bodyScrollLock.min.js: {}
+
+info-item:
+  version: VERSION
+  css:
+    component:
+      src/_patterns/01-molecules/info-item/info-item.css: {}
+
+responsive-video:
+  version: VERSION
+  css:
+    component:
+      src/_patterns/01-molecules/responsive-video/responsive-video.css: {}
+
+overflow-scroller:
+  version: VERSION
+  css:
+    component:
+      src/_patterns/01-molecules/overflow-scroller/overflow-scroller.css: {}
+  js:
+    src/_patterns/01-molecules/overflow-scroller/overflow-scroller.js: {}
+
+product:
+  version: VERSION
+  css:
+    component:
+      src/_patterns/02-organisms/product/product.css: {}
