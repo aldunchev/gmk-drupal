@@ -44,19 +44,11 @@
     'field--type-' ~ field_type|clean_class,
     'field--label-' ~ label_display,
     label_display == 'inline' ? 'clearfix',
+    'mb-2',
   ]
 %}
-{%
-  set title_classes = [
-    'field__label',
-    label_display == 'visually_hidden' ? 'visually-hidden',
-  ]
-%}
-
-<div class="brands-wrapper overflow-wrapper overflow-wrapper--horizontal">
-  <div{{ attributes.addClass(classes, 'field__items', 'overflow-element') }}>
-    {% for item in items %}
-      <div{{ item.attributes.addClass('field__item') }}>{{ item.content }}</div>
-    {% endfor %}
-  </div>
+<div{{ attributes.addClass(classes, 'field__items') }}>
+  {% for item in items %}
+    <div{{ item.attributes.addClass('field__item') }}><i class="material-icons-outlined mr-4">mail</i>{{ item.content }}</div>
+  {% endfor %}
 </div>

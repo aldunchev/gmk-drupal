@@ -28,15 +28,30 @@
     'taxonomy-term',
     'vocabulary-' ~ term.bundle|clean_class,
     'info-item',
+    'flex',
+    'flex-wrap',
+    'h-100',
+    'justify-center',
   ]
 %}
+
+{% set button_attributes = create_attribute() %}
+{% set button_classes = ['button', 'button--cta', 'self-end'] %}
+{% set link_url = content.field_taxonomy_link.0['#url']|render %}
+{% set link_text = content.field_taxonomy_link.0['#title']|render %}
 
 {{ attach_library('gmk/info-item') }}
 <div{{ attributes.setAttribute('id', 'taxonomy-term-' ~ term.id).addClass(classes) }}>
   {{ title_prefix }}
   {{ title_suffix }}
-  <a href="{{ content.field_taxonomy_link.0['#url']}}">{{ content.field_icon }}</a>
-  <h3><a href="{{ content.field_taxonomy_link.0['#url']}}">{{ name }}</a></h3>
-  {{ content.description }}
-  {{ content.field_taxonomy_link }}
+  <div class="top fxb-100">
+    <a href="{{ link_url }}">{{ content.field_icon }}</a>
+    <h3><a href="{{ link_url }}">{{ name }}</a></h3>
+    {{ content.description }}
+  </div>
+
+  {% include "@atoms/button/button.twig" with { 
+    arrow: true,
+    text: link_text,
+    button_attributes: button_attributes.setAttribute('href', link_url).addClass(button_classes) } %}
 </div>

@@ -1,0 +1,5 @@
+@import "../../../sass/variables";
+
+.main-section:nth-child(odd) {
+  background-color: lighten($color-light-grey, 15%);
+}

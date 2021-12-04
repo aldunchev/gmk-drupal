@@ -24,10 +24,24 @@
     }
   }
 
+  &--secondary {
+    padding: 8px 16px;
+    border: 1px solid $color-primary;
+    text-transform: none;
+    background-color: $color-white;
+    color: $primary-text-color;
+    transition: all $transition-duration;
+
+    &:hover {
+      background-color: $color-primary;
+      color: $color-white;
+    }
+  }
+
   &--cta {
     padding-right: 0;
     padding-left: 0;
-    border-bottom: 2px solid $color-primary;
+    border-bottom: 1px solid $color-primary;
     border-radius: 0;
     color: $primary-text-color;
     transition: border $transition-duration, padding $transition-duration;

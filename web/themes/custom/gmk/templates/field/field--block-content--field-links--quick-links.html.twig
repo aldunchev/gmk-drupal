@@ -46,17 +46,18 @@
     label_display == 'inline' ? 'clearfix',
   ]
 %}
-{%
-  set title_classes = [
-    'field__label',
-    label_display == 'visually_hidden' ? 'visually-hidden',
-  ]
-%}
 
-<div class="brands-wrapper overflow-wrapper overflow-wrapper--horizontal">
-  <div{{ attributes.addClass(classes, 'field__items', 'overflow-element') }}>
-    {% for item in items %}
-      <div{{ item.attributes.addClass('field__item') }}>{{ item.content }}</div>
-    {% endfor %}
-  </div>
+{% set button_attributes = create_attribute() %}
+{% set button_classes = ['button', 'button--secondary'] %}
+{{ attach_library('gmk/button') }}
+
+<div{{ attributes.addClass(classes, 'field__items') }}>
+  {% for item in items %}
+    <div{{ item.attributes.addClass('field__item mx-2') }}>
+      {% include "@atoms/button/button.twig" with { 
+        text: item.content['#title']|render, 
+        button_attributes: button_attributes.setAttribute('href', item.content['#url']|render).addClass(button_classes) } %}
+    </div>
+  {% endfor %}
 </div>
+  

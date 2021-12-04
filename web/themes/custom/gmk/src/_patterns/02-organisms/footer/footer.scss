@@ -1,7 +1,6 @@
 @import "../../../sass/variables";
 
 .site-footer {
-  border-top: 2px solid $color-primary;
   background-color: $color-white;
 
   .region-footer-mega {
@@ -40,7 +39,6 @@
   }
 
   &--basic {
-    border-top: 1px solid $color-primary;
     padding: 8px 0;
     background-color: $color-secondary;
     color: $color-white;

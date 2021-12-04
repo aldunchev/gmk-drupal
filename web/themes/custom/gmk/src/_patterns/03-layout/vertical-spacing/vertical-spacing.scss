@@ -1,6 +1,16 @@
+/**
+ * @file
+ * Styles for vertical spacing.
+ */
+
 @import "../../../sass/variables";
 
 .main-section {
-  padding-top: $main-section-padding;
-  padding-bottom: $main-section-padding;
+  padding-top: $main-section-padding - 20;
+  padding-bottom: $main-section-padding - 20;
+
+  @include breakpoint($bp-medium) {
+    padding-top: $main-section-padding;
+    padding-bottom: $main-section-padding;
+  }
 }

@@ -40,11 +40,14 @@ libraries-override:
   classy/base:
     css:
       component:
+        css/components/action-links.css: false
         css/components/breadcrumb.css: false
         css/components/button.css: false
+        css/components/collapse-processed.css: false
         css/components/container-inline.css: false
         css/components/details.css: false
         css/components/exposed-filters.css: false
+        css/components/field.css: false
         css/components/form.css: false
         css/components/icons.css: false
         css/components/inline-form.css: false
@@ -54,7 +57,37 @@ libraries-override:
         css/components/menu.css: false
         css/components/more-link.css: false
         css/components/pager.css: false
+        css/components/tabledrag.css: false
+        css/components/tableselect.css: false
+        css/components/tablesort.css: false
         css/components/textarea.css: false
+        css/components/ui-dialog.css: false
+  classy/node: false
+  system/base:
+    css:
+      component:
+        /core/themes/stable/css/system/components/ajax-progress.module.css: false
+        /core/themes/stable/css/system/components/align.module.css: false
+        /core/themes/stable/css/system/components/autocomplete-loading.module.css: false
+        /core/themes/stable/css/system/components/fieldgroup.module.css: false
+        /core/themes/stable/css/system/components/container-inline.module.css: false
+        /core/themes/stable/css/system/components/clearfix.module.css: false
+        /core/themes/stable/css/system/components/details.module.css: false
+        /core/themes/stable/css/system/components/item-list.module.css: false
+        /core/themes/stable/css/system/components/js.module.css: false
+        /core/themes/stable/css/system/components/nowrap.module.css: false
+        /core/themes/stable/css/system/components/position-container.module.css: false
+        /core/themes/stable/css/system/components/progress.module.css: false
+        /core/themes/stable/css/system/components/reset-appearance.module.css: false
+        /core/themes/stable/css/system/components/resize.module.css: false
+        /core/themes/stable/css/system/components/sticky-header.module.css: false
+        /core/themes/stable/css/system/components/system-status-counter.css: false
+        /core/themes/stable/css/system/components/system-status-report-counters.css: false
+        /core/themes/stable/css/system/components/system-status-report-general-info.css: false
+        /core/themes/stable/css/system/components/tabledrag.module.css: false
+        /core/themes/stable/css/system/components/tablesort.module.css: false
+        /core/themes/stable/css/system/components/tree-child.module.css: false
+  paragraphs/drupal.paragraphs.unpublished: false
 
 libraries-extend:
   media/oembed.formatter:

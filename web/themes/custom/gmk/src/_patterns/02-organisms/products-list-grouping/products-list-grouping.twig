@@ -15,12 +15,13 @@
  * @see template_preprocess_views_view_unformatted()
  */
 #}
-{% set sanitized_title = title|render|striptags|lower|trim|replace({' ': '_'}) %}
+
+{{ attach_library('gmk/products-list-grouping') }}
 
 <div class="main-section">
   <div class="container">
     {% if title %}
-      <h2 id="{{ sanitized_title }}" class="h2--large">{{ title }}</h2>
+      <h2 id="section-" class="h2--large js-grouping-title">{{ title }}</h2>
     {% endif %}
   
     <div class="results row">

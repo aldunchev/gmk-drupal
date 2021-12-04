@@ -3,15 +3,13 @@
 .block-type__quick-links {
   text-align: center;
 
+  .field--name-body {
+    margin: 16px 0;
+    font-size: 18px;
+  }
+
   .field--name-field-links {
     display: flex;
     justify-content: center;
-
-    .field__item {
-      a {
-        padding: 10px;
-        font-size: $font-size-md;
-      }
-    }
   }
 }

@@ -62,6 +62,8 @@ brands:
   css:
     component:
       src/_patterns/02-organisms/brands/brands.css: {}
+  js:
+    src/_patterns/02-organisms/brands/brands.js: {}
   dependencies:
     - gmk/overflow-scroller
 
@@ -149,3 +151,19 @@ product:
   css:
     component:
       src/_patterns/02-organisms/product/product.css: {}
+
+distributors:
+  version: VERSION
+  css:
+    component:
+      src/_patterns/02-organisms/distributors/distributors.css: {}
+  js:
+    src/_patterns/02-organisms/distributors/distributors.js: {}
+  dependencies:
+    - gmk/overflow-scroller
+
+products-list-grouping:
+  version: VERSION
+  css:
+    component:
+      src/_patterns/02-organisms/products-list-grouping/products-list-grouping.css: {}

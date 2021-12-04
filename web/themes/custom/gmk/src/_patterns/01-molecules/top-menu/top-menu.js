@@ -9,6 +9,11 @@
   const topMenu = document.querySelector('.top-menu');
   const body = document.querySelector('body');
   const items = document.querySelectorAll('.top-menu__item a');
+  const sectionTitles = document.querySelectorAll('.js-grouping-title');
+
+  sectionTitles.forEach(function(element, index) {
+    element.setAttribute('id', `section-${index}`);
+  });
 
   /**
    * Scroll handler.
@@ -60,5 +65,8 @@
   topMenuItems.forEach(function (currentItem) {
     currentItem.addEventListener('click', handleClickItem);
   });
+
+  // Initialize overflowscroller.
+  new overflowScroller('horizontal');
 
 })();

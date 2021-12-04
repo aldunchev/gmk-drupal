@@ -11,7 +11,7 @@
     transform: translateY(-50%);
     color: $color-white;
     padding: 48px 32px;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: $border-radius;
 
     @include breakpoint($bp-medium) {
@@ -26,6 +26,7 @@
       left: 200px;
       right: auto;
       min-width: 615px;
+      max-width: 800px;
     }
   }
 
@@ -39,6 +40,7 @@
   }
 
   .field--name-field-paragraph-title {
+    margin-top: 0;
     color: $color-white;
 
     @include breakpoint($bp-large) {

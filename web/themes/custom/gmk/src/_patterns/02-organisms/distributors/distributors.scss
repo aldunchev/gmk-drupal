@@ -1,0 +1,66 @@
+@import "../../../sass/variables";
+
+.distributors-list {
+  position: relative;
+
+  .view-content {
+    @include breakpoint($bp-medium) {
+      max-height: 600px;
+    }
+  }
+}
+
+.distributors-map {
+  @include breakpoint(max-width $bp-medium - 1) {
+    display: none;
+  }
+
+  &--fixed {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 101;
+
+    .geolocation-map-container {
+      height: 100vh !important;
+    }
+  }
+
+  .show-list {
+    z-index: 109;
+  }
+}
+
+.show-map,
+.show-list {
+  @include breakpoint($bp-medium) {
+    display: none;
+  }
+
+  position: fixed;
+  top: 540px;
+  right: 8px;
+  z-index: 9;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: $color-white;
+  box-shadow: $box-shadow;
+  cursor: pointer;
+
+  .material-icons-outlined {
+    margin-left: 4px;
+  }
+}
+
+@keyframes mouse-scroll {
+  0%   { opacity: 0; }
+  50%  { opacity: .5; }
+  100% { opacity: 1; }
+}
+
+.field--name-field-city {
+  font-size: 1.5rem;
+}

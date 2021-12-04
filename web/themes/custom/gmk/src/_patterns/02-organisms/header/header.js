@@ -8,7 +8,7 @@
   const mainNav = document.querySelector('#block-gmk-main-menu');
   const body = document.querySelector('body');
   const subMenuTrigger = document.querySelectorAll('.js-expand-submenu');
-  const backButtom = document.querySelectorAll('.js-close-submenu');
+  const backButton = document.querySelectorAll('.js-close-submenu');
 
   burger.addEventListener('click', function () {
     burger.classList.toggle('is-active');
@@ -33,7 +33,7 @@
     });
   });
 
-  backButtom.forEach(function (currentItem) {
+  backButton.forEach(function (currentItem) {
     currentItem.addEventListener('click', function (event) {
       event.preventDefault();
 
