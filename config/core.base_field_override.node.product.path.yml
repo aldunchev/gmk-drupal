@@ -1,0 +1,20 @@
+uuid: 8a8fdf98-cef9-415d-9814-ed86ec894e3c
+langcode: bg
+status: true
+dependencies:
+  config:
+    - node.type.product
+  module:
+    - path
+id: node.product.path
+field_name: path
+entity_type: node
+bundle: product
+label: 'URL alias'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

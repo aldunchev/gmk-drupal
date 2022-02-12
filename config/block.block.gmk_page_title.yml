@@ -1,0 +1,20 @@
+uuid: c880d323-3aa1-42ab-9b2a-1886e8cd6c8e
+langcode: bg
+status: false
+dependencies:
+  theme:
+    - gmk
+_core:
+  default_config_hash: WImvmaBdDpwIqobqbDWebBnyxssRvrNEnZSQbOsvOe4
+id: gmk_page_title
+theme: gmk
+region: content
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

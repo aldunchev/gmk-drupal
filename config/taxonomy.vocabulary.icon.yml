@@ -1,0 +1,8 @@
+uuid: c4b3ad0e-2b6c-4840-aea7-ef971ac9adfe
+langcode: bg
+status: true
+dependencies: {  }
+name: Icon
+vid: icon
+description: 'Add reusable icons as terms. Prefered are svg icons.'
+weight: 0

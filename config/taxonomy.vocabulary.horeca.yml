@@ -1,0 +1,8 @@
+uuid: 2f0628f9-3659-4031-8b13-2a38eb7a76ba
+langcode: bg
+status: true
+dependencies: {  }
+name: ХоРеКа
+vid: horeca
+description: 'Категоризация за ХоРeKa продукти'
+weight: 0

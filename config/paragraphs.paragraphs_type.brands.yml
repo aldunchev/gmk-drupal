@@ -1,0 +1,10 @@
+uuid: 0d2cb7b0-4b70-4b09-bbf0-bc7841cd528a
+langcode: bg
+status: true
+dependencies: {  }
+id: brands
+label: Brands
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

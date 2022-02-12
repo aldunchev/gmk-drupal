@@ -1,0 +1,8 @@
+uuid: fa6e1844-338c-4d51-bfad-4ca6806cdeee
+langcode: bg
+status: true
+dependencies: {  }
+name: 'Категория продукти'
+vid: product_category
+description: 'Категоризация продукти от брандове'
+weight: 0

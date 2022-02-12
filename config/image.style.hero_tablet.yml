@@ -1,0 +1,15 @@
+uuid: cc97c1f1-9e7b-4884-b252-a5ed942638ef
+langcode: bg
+status: true
+dependencies: {  }
+name: hero_tablet
+label: 'Hero tablet (1000x417)'
+effects:
+  7047c4ed-ec64-4d22-8d81-6455afcd4411:
+    uuid: 7047c4ed-ec64-4d22-8d81-6455afcd4411
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1000
+      height: 417
+      anchor: center-center

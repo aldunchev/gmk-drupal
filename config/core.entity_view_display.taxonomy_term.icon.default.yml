@@ -1,0 +1,45 @@
+uuid: 66deeb7b-d8d1-42f7-81e9-62b902c245f9
+langcode: bg
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.icon.field_icon
+    - field.field.taxonomy_term.icon.field_taxonomy_link
+    - taxonomy.vocabulary.icon
+  module:
+    - link
+    - material_icons
+    - text
+id: taxonomy_term.icon.default
+targetEntityType: taxonomy_term
+bundle: icon
+mode: default
+content:
+  description:
+    type: text_default
+    weight: 1
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  field_icon:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: material_icons
+    region: content
+  field_taxonomy_link:
+    weight: 2
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden:
+  langcode: true

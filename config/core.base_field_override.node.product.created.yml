@@ -1,0 +1,18 @@
+uuid: 89a5ef31-c14c-4ddb-829d-eb674e677c93
+langcode: bg
+status: true
+dependencies:
+  config:
+    - node.type.product
+id: node.product.created
+field_name: created
+entity_type: node
+bundle: product
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

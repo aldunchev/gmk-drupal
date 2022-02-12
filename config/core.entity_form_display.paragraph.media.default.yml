@@ -1,0 +1,50 @@
+uuid: 6d83ceb8-cfa0-49dd-9d5d-a20899fcf5ed
+langcode: bg
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.media.field_landing_page_title
+    - field.field.paragraph.media.field_paragraph_media
+    - field.field.paragraph.media.field_paragraph_title
+    - field.field.paragraph.media.field_theme_light
+    - paragraphs.paragraphs_type.media
+  module:
+    - media_library
+    - text
+id: paragraph.media.default
+targetEntityType: paragraph
+bundle: media
+mode: default
+content:
+  field_landing_page_title:
+    weight: 1
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_paragraph_media:
+    type: media_library_widget
+    weight: 3
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+    region: content
+  field_paragraph_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_theme_light:
+    weight: 2
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+hidden:
+  created: true
+  status: true

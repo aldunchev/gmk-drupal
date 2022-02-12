@@ -1,0 +1,25 @@
+uuid: c0e55e4d-026a-46a3-9b19-bb1367192cca
+langcode: bg
+status: true
+dependencies:
+  config:
+    - system.menu.product-menu
+  module:
+    - system
+  theme:
+    - gmk
+id: productmenu
+theme: gmk
+region: footer_mega
+weight: -7
+provider: null
+plugin: 'system_menu_block:product-menu'
+settings:
+  id: 'system_menu_block:product-menu'
+  label: Продукти
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,30 @@
+uuid: aef5db18-f82c-4417-b9fa-ff7abc702a98
+langcode: bg
+status: true
+dependencies:
+  config:
+    - image.style.hero
+    - image.style.hero_mobile
+    - image.style.hero_tablet
+  theme:
+    - gmk
+id: hero
+label: Hero
+image_style_mappings:
+  -
+    breakpoint_id: gmk.wide
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: hero
+  -
+    breakpoint_id: gmk.narrow
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: hero_tablet
+  -
+    breakpoint_id: gmk.mobile
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: hero_mobile
+breakpoint_group: gmk
+fallback_image_style: hero_mobile

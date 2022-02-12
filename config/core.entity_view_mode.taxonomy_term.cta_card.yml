@@ -1,0 +1,10 @@
+uuid: 90d3518d-5036-460c-9545-8aeabbc63380
+langcode: bg
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.cta_card
+label: 'CTA card'
+targetEntityType: taxonomy_term
+cache: true

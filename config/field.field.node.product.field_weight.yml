@@ -1,0 +1,19 @@
+uuid: cb98c521-ab1b-4be7-8afb-1921e1c84c12
+langcode: bg
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_weight
+    - node.type.product
+id: node.product.field_weight
+field_name: field_weight
+entity_type: node
+bundle: product
+label: Тегло
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,51 @@
+uuid: 151e5d35-022c-4348-8332-a5f8b825129e
+langcode: bg
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.taxonomy_term.term_image
+    - field.field.taxonomy_term.brand.field_color
+    - field.field.taxonomy_term.brand.field_image
+    - field.field.taxonomy_term.brand.field_media
+    - field.field.taxonomy_term.brand.field_taxonomy_link
+    - image.style.medium
+    - taxonomy.vocabulary.brand
+  module:
+    - layout_builder
+    - link
+    - svg_image
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: false
+id: taxonomy_term.brand.term_image
+targetEntityType: taxonomy_term
+bundle: brand
+mode: term_image
+content:
+  field_image:
+    type: image
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      image_style: medium
+      image_link: ''
+    third_party_settings: {  }
+  field_taxonomy_link:
+    type: link
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+hidden:
+  description: true
+  field_color: true
+  field_media: true
+  langcode: true

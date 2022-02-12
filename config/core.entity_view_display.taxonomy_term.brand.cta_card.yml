@@ -1,0 +1,49 @@
+uuid: 0daefc71-157b-4ec1-a5fe-5015128f1916
+langcode: bg
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.taxonomy_term.cta_card
+    - field.field.taxonomy_term.brand.field_color
+    - field.field.taxonomy_term.brand.field_image
+    - field.field.taxonomy_term.brand.field_media
+    - field.field.taxonomy_term.brand.field_taxonomy_link
+    - taxonomy.vocabulary.brand
+  module:
+    - layout_builder
+    - link
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: false
+id: taxonomy_term.brand.cta_card
+targetEntityType: taxonomy_term
+bundle: brand
+mode: cta_card
+content:
+  field_media:
+    type: entity_reference_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: card_square_cropped
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_taxonomy_link:
+    type: link
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+hidden:
+  description: true
+  field_color: true
+  field_image: true
+  langcode: true

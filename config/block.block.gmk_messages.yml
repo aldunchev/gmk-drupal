@@ -1,0 +1,22 @@
+uuid: 64f0f78e-15f5-47fd-878d-3d7ff08cc2a8
+langcode: bg
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gmk
+_core:
+  default_config_hash: KfyaTPRJEcAyy2e5AxEfWQnuHcn4WrfvcWek7lSmHZQ
+id: gmk_messages
+theme: gmk
+region: highlighted
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,8 @@
+uuid: 35f9adc7-12fb-4d06-9c6c-2fa3aac643fc
+langcode: bg
+status: true
+dependencies: {  }
+id: quick_links
+label: 'Бързи линкове'
+revision: 0
+description: 'Директни линкове към страници на сайта'

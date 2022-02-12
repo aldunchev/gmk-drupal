@@ -1,0 +1,19 @@
+uuid: 4cb9f327-72d2-4fd5-9f5e-1c404990b06f
+langcode: bg
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_units_pack
+    - node.type.product
+id: node.product.field_units_pack
+field_name: field_units_pack
+entity_type: node
+bundle: product
+label: 'Бройка в опаковка'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

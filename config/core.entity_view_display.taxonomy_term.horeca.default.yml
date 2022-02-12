@@ -1,0 +1,26 @@
+uuid: c9439401-a77f-4c7f-900a-4cf212e3b55b
+langcode: bg
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.horeca.field_media
+    - field.field.taxonomy_term.horeca.field_taxonomy_link
+    - taxonomy.vocabulary.horeca
+  module:
+    - text
+id: taxonomy_term.horeca.default
+targetEntityType: taxonomy_term
+bundle: horeca
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_media: true
+  field_taxonomy_link: true
+  langcode: true

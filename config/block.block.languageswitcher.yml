@@ -1,0 +1,20 @@
+uuid: dc2442c5-1836-45ea-af99-abc3c5702f57
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+  theme:
+    - olivero
+id: languageswitcher
+theme: olivero
+region: secondary_menu
+weight: -6
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Language switcher'
+  provider: language
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,21 @@
+uuid: cc159775-befa-426b-90ff-71b767cc9282
+langcode: bg
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_icon
+    - taxonomy.vocabulary.icon
+  module:
+    - material_icons
+id: taxonomy_term.icon.field_icon
+field_name: field_icon
+entity_type: taxonomy_term
+bundle: icon
+label: Icon
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: material_icons

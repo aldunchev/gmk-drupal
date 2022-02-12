@@ -1,0 +1,16 @@
+uuid: feb99494-8a38-4a54-a12f-7dc753bb7c55
+langcode: bg
+status: true
+dependencies: {  }
+name: card_square_cropped
+label: 'Card square cropped'
+effects:
+  fcbc165a-9651-421e-bbed-e2aa8ae3cc9d:
+    uuid: fcbc165a-9651-421e-bbed-e2aa8ae3cc9d
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 480
+      height: 480
+      anchor: center-center
+pipeline: __default__

@@ -1,0 +1,20 @@
+uuid: fcdd020c-b4ac-4c6c-bd40-0900e04fb084
+langcode: bg
+status: true
+dependencies:
+  config:
+    - media.type.document
+id: media.document.name
+field_name: name
+entity_type: media
+bundle: document
+label: Name
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

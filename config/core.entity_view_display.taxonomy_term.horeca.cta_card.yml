@@ -1,0 +1,45 @@
+uuid: b4eb8f54-ed55-4b18-8ac7-a7be80c4d668
+langcode: bg
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.taxonomy_term.cta_card
+    - field.field.taxonomy_term.horeca.field_media
+    - field.field.taxonomy_term.horeca.field_taxonomy_link
+    - taxonomy.vocabulary.horeca
+  module:
+    - layout_builder
+    - link
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: false
+id: taxonomy_term.horeca.cta_card
+targetEntityType: taxonomy_term
+bundle: horeca
+mode: cta_card
+content:
+  field_media:
+    type: entity_reference_entity_view
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      view_mode: card
+      link: false
+    third_party_settings: {  }
+  field_taxonomy_link:
+    type: link
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+hidden:
+  description: true
+  langcode: true

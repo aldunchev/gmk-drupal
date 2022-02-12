@@ -1,0 +1,21 @@
+uuid: 13a33c41-0184-497b-93ff-1df5d19e1082
+langcode: bg
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_title
+    - paragraphs.paragraphs_type.brands
+  module:
+    - text
+id: paragraph.brands.field_paragraph_title
+field_name: field_paragraph_title
+entity_type: paragraph
+bundle: brands
+label: 'Paragraph Title'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

@@ -1,0 +1,18 @@
+uuid: aa3014a0-c532-4a1d-a118-c9ea168275fc
+langcode: bg
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.brands
+id: paragraph.brands.created
+field_name: created
+entity_type: paragraph
+bundle: brands
+label: 'Написано на'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

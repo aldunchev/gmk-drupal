@@ -1,0 +1,8 @@
+uuid: 035199c2-9dd3-4fa1-aa12-67ffe4e34e70
+langcode: bg
+status: true
+dependencies: {  }
+id: Ws6Pk8Ccl-kGwmsqzRfJRYC5u0_rI4DDI11AQdPNhTY
+label: 'http://default'
+context:
+  language: bg

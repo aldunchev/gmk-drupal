@@ -1,0 +1,18 @@
+uuid: f15b6a5e-e470-44a6-b8e3-19e7df9413cd
+langcode: bg
+status: true
+dependencies:
+  config:
+    - node.type.product
+id: node.product.changed
+field_name: changed
+entity_type: node
+bundle: product
+label: Changed
+description: 'The time that the node was last edited.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

@@ -1,0 +1,33 @@
+uuid: 80a35f14-4d52-40c7-98a3-4a62baefa765
+langcode: bg
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_media
+    - media.type.image
+    - taxonomy.vocabulary.horeca
+  content:
+    - 'media:image:92017d55-7426-4545-b752-87be3a0d8655'
+id: taxonomy_term.horeca.field_media
+field_name: field_media
+entity_type: taxonomy_term
+bundle: horeca
+label: Media
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    target_uuid: 92017d55-7426-4545-b752-87be3a0d8655
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

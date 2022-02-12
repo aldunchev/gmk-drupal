@@ -1,0 +1,10 @@
+uuid: d12208bc-1576-4bc5-94e2-ae0ad9edb4c8
+langcode: bg
+status: true
+dependencies: {  }
+id: info_block
+label: 'Info block'
+icon_uuid: null
+icon_default: null
+description: 'Информационен блок: множество блокчета с икона, текст линк'
+behavior_plugins: {  }

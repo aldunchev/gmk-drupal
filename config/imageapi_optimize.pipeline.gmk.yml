@@ -1,0 +1,15 @@
+uuid: 43570733-9619-4306-93b9-41e919986660
+langcode: bg
+status: true
+dependencies:
+  module:
+    - imageapi_optimize_webp
+name: gmk
+label: GMK
+processors:
+  88574ccb-c6d5-4afd-828b-4975e5be6538:
+    uuid: 88574ccb-c6d5-4afd-828b-4975e5be6538
+    id: imageapi_optimize_webp
+    weight: 1
+    data:
+      quality: '75'

@@ -1,0 +1,12 @@
+uuid: 522574cb-670f-4c3a-9c0f-d1601023690e
+langcode: bg
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: h3BeHVei4Lnyqbkao3YiF4KqoY-DhRvUNfEgKG8Rgjg
+id: paragraph.preview
+label: 'Предварителен преглед'
+targetEntityType: paragraph
+cache: true

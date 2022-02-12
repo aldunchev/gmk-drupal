@@ -1,0 +1,22 @@
+uuid: f8f1a9cd-41dc-4265-9fb1-e145a2c71537
+langcode: bg
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.hero
+id: paragraph.hero.status
+field_name: status
+entity_type: paragraph
+bundle: hero
+label: Публикувано
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

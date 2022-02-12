@@ -1,0 +1,29 @@
+uuid: e46e3aae-2cb8-425e-8812-982b6bb2d088
+langcode: bg
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_info_item
+    - paragraphs.paragraphs_type.info_block
+    - taxonomy.vocabulary.icon
+id: paragraph.info_block.field_info_item
+field_name: field_info_item
+entity_type: paragraph
+bundle: info_block
+label: 'Info item'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      icon: icon
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

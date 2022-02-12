@@ -1,0 +1,15 @@
+uuid: 84a9c82f-ae37-45a7-89af-0451595d23f9
+langcode: bg
+status: true
+dependencies: {  }
+name: hero_mobile
+label: 'Hero Mobile (600x700)'
+effects:
+  677ba60b-419d-48d2-a39b-589f7feede4a:
+    uuid: 677ba60b-419d-48d2-a39b-589f7feede4a
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 600
+      height: 700
+      anchor: center-center

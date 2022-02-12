@@ -1,0 +1,18 @@
+uuid: 2ca3b2e9-d433-45d1-a073-1845d2e5cfe5
+langcode: bg
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.product_category
+id: taxonomy_term.product_category.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: product_category
+label: Changed
+description: 'The time that the term was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

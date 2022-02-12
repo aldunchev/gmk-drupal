@@ -1,0 +1,38 @@
+uuid: 52f02744-d1c0-4dd0-af8a-6722b5fb7d9c
+langcode: bg
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.card
+    - field.field.media.image.field_media_image
+    - media.type.image
+    - responsive_image.styles.card
+  module:
+    - layout_builder
+    - responsive_image
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: false
+_core:
+  default_config_hash: B1a2aBHmUulUZN6HrxITEH1tSResuVjXMBEv1lUBtOo
+id: media.image.card
+targetEntityType: media
+bundle: image
+mode: card
+content:
+  field_media_image:
+    label: hidden
+    settings:
+      responsive_image_style: card
+      image_link: ''
+    third_party_settings: {  }
+    type: responsive_image
+    weight: 1
+    region: content
+hidden:
+  created: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true

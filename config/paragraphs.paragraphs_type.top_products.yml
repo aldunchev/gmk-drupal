@@ -1,0 +1,10 @@
+uuid: 1f46152f-0243-4cdd-b9f3-3aa142545e38
+langcode: bg
+status: true
+dependencies: {  }
+id: top_products
+label: 'Top Products'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

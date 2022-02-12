@@ -1,0 +1,16 @@
+uuid: 19dac1cb-a974-4b02-beb7-1b8097dbab66
+langcode: bg
+status: true
+dependencies: {  }
+name: card
+label: Card
+effects:
+  d437dcf5-5966-40cb-9c92-c75337fccc36:
+    uuid: d437dcf5-5966-40cb-9c92-c75337fccc36
+    id: image_scale
+    weight: -10
+    data:
+      width: 480
+      height: 400
+      upscale: false
+pipeline: __default__

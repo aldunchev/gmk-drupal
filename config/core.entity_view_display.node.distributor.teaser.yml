@@ -1,0 +1,34 @@
+uuid: e69fc2dc-2c76-4250-a7d8-fb136e15a623
+langcode: bg
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.distributor.field_address
+    - field.field.node.distributor.field_city
+    - field.field.node.distributor.field_email
+    - field.field.node.distributor.field_geolocation
+    - field.field.node.distributor.field_telephone
+    - node.type.distributor
+  module:
+    - user
+id: node.distributor.teaser
+targetEntityType: node
+bundle: distributor
+mode: teaser
+content:
+  field_city:
+    type: string
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  field_address: true
+  field_email: true
+  field_geolocation: true
+  field_telephone: true
+  langcode: true
+  links: true

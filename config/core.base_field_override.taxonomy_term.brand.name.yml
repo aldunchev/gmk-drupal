@@ -1,0 +1,18 @@
+uuid: 2a83b0ab-ef3b-4c7d-995a-3648eaeb887f
+langcode: bg
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.brand
+id: taxonomy_term.brand.name
+field_name: name
+entity_type: taxonomy_term
+bundle: brand
+label: Name
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

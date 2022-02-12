@@ -1,0 +1,17 @@
+uuid: ec6268cb-7e0b-4e14-b69c-e8fe6b7c0ce4
+langcode: bg
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Дистрибутор
+type: distributor
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

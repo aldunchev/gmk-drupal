@@ -1,0 +1,22 @@
+uuid: 9278f125-5856-42f7-a8da-26ffd2961413
+langcode: bg
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.top_products
+id: paragraph.top_products.status
+field_name: status
+entity_type: paragraph
+bundle: top_products
+label: Публикувано
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

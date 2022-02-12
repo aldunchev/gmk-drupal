@@ -1,0 +1,25 @@
+uuid: 5e73d64a-3df3-41b9-a4e0-f56918500247
+langcode: bg
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - gmk
+id: footer
+theme: gmk
+region: footer_mega
+weight: -8
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: Меню
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,26 @@
+uuid: a0a32262-0858-40d5-8567-e7302f7c3cd4
+langcode: bg
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.product_category.field_media
+    - field.field.taxonomy_term.product_category.field_taxonomy_link
+    - taxonomy.vocabulary.product_category
+  module:
+    - text
+id: taxonomy_term.product_category.default
+targetEntityType: taxonomy_term
+bundle: product_category
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_media: true
+  field_taxonomy_link: true
+  langcode: true

@@ -1,0 +1,20 @@
+uuid: 0667ad83-3cfc-48e9-b3cb-ceee2344791b
+langcode: en
+status: false
+dependencies:
+  module:
+    - language
+  theme:
+    - gmk
+id: gmk_languageswitcher
+theme: gmk
+region: header
+weight: -3
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Language switcher'
+  provider: language
+  label_display: '0'
+visibility: {  }

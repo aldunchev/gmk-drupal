@@ -1,0 +1,10 @@
+uuid: fbe161fc-7431-4d9c-9533-c2407baea095
+langcode: bg
+status: true
+dependencies:
+  module:
+    - media
+id: media.card_square_cropped
+label: 'Card square cropped'
+targetEntityType: media
+cache: true

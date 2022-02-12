@@ -1,0 +1,37 @@
+uuid: dc9e35c0-bdba-4212-a0dc-1940bb834111
+langcode: bg
+status: true
+dependencies:
+  config:
+    - block_content.type.quick_links
+    - field.field.block_content.quick_links.body
+    - field.field.block_content.quick_links.field_links
+  module:
+    - link
+    - text
+id: block_content.quick_links.default
+targetEntityType: block_content
+bundle: quick_links
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_links:
+    weight: 1
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden:
+  langcode: true

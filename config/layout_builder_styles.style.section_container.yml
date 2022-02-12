@@ -1,0 +1,11 @@
+uuid: 3a5d139d-f239-4009-84d1-44101149567b
+langcode: bg
+status: true
+dependencies: {  }
+id: section_container
+label: Section+Container
+classes: "main-section\r\ncontainer"
+type: section
+weight: 0
+block_restrictions: {  }
+layout_restrictions: {  }

@@ -1,0 +1,11 @@
+uuid: 7856cf24-ea3c-400c-b6c8-3026e05de730
+langcode: bg
+status: true
+dependencies: {  }
+id: container
+label: Container
+classes: container
+type: section
+weight: 0
+block_restrictions: {  }
+layout_restrictions: {  }

@@ -1,0 +1,28 @@
+uuid: 78724e47-5bc7-4953-99a2-6cd0cc34d778
+langcode: bg
+status: true
+dependencies:
+  config:
+    - image.style.card_square_cropped
+  theme:
+    - gmk
+id: card_square_cropped
+label: 'Card square cropped'
+image_style_mappings:
+  -
+    breakpoint_id: gmk.wide
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: card_square_cropped
+  -
+    breakpoint_id: gmk.narrow
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: card_square_cropped
+  -
+    breakpoint_id: gmk.mobile
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: card_square_cropped
+breakpoint_group: gmk
+fallback_image_style: card_square_cropped

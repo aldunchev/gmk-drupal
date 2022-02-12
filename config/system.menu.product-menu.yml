@@ -1,0 +1,8 @@
+uuid: b8607547-6000-4e9f-9806-b24e74eae7fb
+langcode: bg
+status: true
+dependencies: {  }
+id: product-menu
+label: 'Product menu'
+description: 'Used in footer'
+locked: false

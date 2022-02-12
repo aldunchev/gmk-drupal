@@ -1,0 +1,33 @@
+uuid: 8f1243c0-789e-486e-9fa5-7cde4ffa297f
+langcode: bg
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_media
+    - media.type.image
+    - media.type.remote_video
+    - media.type.video
+    - paragraphs.paragraphs_type.media
+id: paragraph.media.field_paragraph_media
+field_name: field_paragraph_media
+entity_type: paragraph
+bundle: media
+label: 'Paragraph Media'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      remote_video: remote_video
+      video: video
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: remote_video
+field_type: entity_reference

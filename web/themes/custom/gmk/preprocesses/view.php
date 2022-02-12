@@ -19,11 +19,7 @@ function gmk_preprocess_views_view(&$variables) {
 
       foreach ($variables['rows'] as $key => $value) {
         $menu_items[] = $value['#title'];
-
-        // dump($value['#view']->field['field_color']->getValue($value));
-        // dump($value);
       }
-      // dump($variables['view']->field['field_color']);
 
       $view = $variables['view'];
       $color = NULL;
@@ -34,10 +30,6 @@ function gmk_preprocess_views_view(&$variables) {
             break;
           }
         }
-        // dump($view->field['field_color']->getValue($row));
-        // foreach ($view->field as $field_id => $field ) {
-        //   $values[$row_id][$field_id] = $field->getValue($row);
-        // }
       }
 
       $variables['menu_color'] = $color;

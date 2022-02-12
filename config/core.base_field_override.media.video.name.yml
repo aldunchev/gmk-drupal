@@ -1,0 +1,20 @@
+uuid: c2a32356-6a0b-4210-952b-8ca54c7101bf
+langcode: bg
+status: true
+dependencies:
+  config:
+    - media.type.video
+id: media.video.name
+field_name: name
+entity_type: media
+bundle: video
+label: Name
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

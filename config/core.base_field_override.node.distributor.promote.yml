@@ -1,0 +1,22 @@
+uuid: 31c0c556-6001-4076-9fb5-f4e847bc0d97
+langcode: bg
+status: true
+dependencies:
+  config:
+    - node.type.distributor
+id: node.distributor.promote
+field_name: promote
+entity_type: node
+bundle: distributor
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

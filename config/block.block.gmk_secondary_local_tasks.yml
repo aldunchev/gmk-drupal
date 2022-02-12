@@ -1,0 +1,22 @@
+uuid: 4dcf1e19-d08a-4ef2-8116-9caad22bc0db
+langcode: bg
+status: true
+dependencies:
+  theme:
+    - gmk
+_core:
+  default_config_hash: V7GM1m6Qh500cQE7LWZV8lRuwLqXdjR0S2kSk8pEv6g
+id: gmk_secondary_local_tasks
+theme: gmk
+region: highlighted
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  provider: core
+  label_display: '0'
+  primary: false
+  secondary: true
+visibility: {  }

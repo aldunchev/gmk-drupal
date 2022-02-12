@@ -1,0 +1,22 @@
+uuid: 2a44b6b6-a814-4fe3-a9d1-52bf09d38ff1
+langcode: bg
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.brands
+id: paragraph.brands.status
+field_name: status
+entity_type: paragraph
+bundle: brands
+label: Публикувано
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,21 @@
+uuid: bcde1a23-7fde-416e-8346-92fd168c754c
+langcode: bg
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_telephone
+    - node.type.distributor
+  module:
+    - telephone
+id: node.distributor.field_telephone
+field_name: field_telephone
+entity_type: node
+bundle: distributor
+label: Телефон
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

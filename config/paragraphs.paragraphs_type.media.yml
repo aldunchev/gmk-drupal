@@ -1,0 +1,10 @@
+uuid: 0b18a690-174b-4599-adc0-b516d389fa3a
+langcode: bg
+status: true
+dependencies: {  }
+id: media
+label: Media
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

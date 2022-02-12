@@ -1,0 +1,40 @@
+uuid: f89d18a8-d467-49f6-bd5b-5356acf8559a
+langcode: bg
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tags
+  module:
+    - comment
+    - contextual
+    - file
+    - node
+    - path
+    - quickedit
+    - system
+    - taxonomy
+    - toolbar
+    - tour
+_core:
+  default_config_hash: UmuCbz6vSFpjJFQfhcOh1eYcnKxgQFk9ssO7PivJe6I
+id: content_editor
+label: 'Content editor'
+weight: 2
+is_admin: false
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access files overview'
+  - 'access in-place editing'
+  - 'access toolbar'
+  - 'access tour'
+  - 'administer url aliases'
+  - 'create terms in tags'
+  - 'create url aliases'
+  - 'edit own comments'
+  - 'edit terms in tags'
+  - 'revert all revisions'
+  - 'view all revisions'
+  - 'view own unpublished content'
+  - 'view the administration theme'

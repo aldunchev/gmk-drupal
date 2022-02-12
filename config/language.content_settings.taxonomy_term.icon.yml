@@ -1,0 +1,18 @@
+uuid: 582c3351-d917-4159-925b-66f7f2218dea
+langcode: bg
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.icon
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: taxonomy_term.icon
+target_entity_type_id: taxonomy_term
+target_bundle: icon
+default_langcode: site_default
+language_alterable: false

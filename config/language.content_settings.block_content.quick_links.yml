@@ -1,0 +1,18 @@
+uuid: 909e4718-37ff-4a02-bd8a-8949a362fe0a
+langcode: bg
+status: true
+dependencies:
+  config:
+    - block_content.type.quick_links
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: block_content.quick_links
+target_entity_type_id: block_content
+target_bundle: quick_links
+default_langcode: site_default
+language_alterable: true

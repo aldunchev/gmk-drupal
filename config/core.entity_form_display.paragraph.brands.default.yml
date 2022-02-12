@@ -1,0 +1,52 @@
+uuid: 45a301f1-9850-4c1c-ae77-2b69fa00e2e6
+langcode: bg
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.brands.field_brands
+    - field.field.paragraph.brands.field_landing_page_title
+    - field.field.paragraph.brands.field_paragraph_title
+    - field.field.paragraph.brands.field_theme_light
+    - paragraphs.paragraphs_type.brands
+  module:
+    - text
+id: paragraph.brands.default
+targetEntityType: paragraph
+bundle: brands
+mode: default
+content:
+  field_brands:
+    weight: 2
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_landing_page_title:
+    weight: 1
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_paragraph_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_theme_light:
+    weight: 3
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,11 @@
+uuid: 7ee32a2c-80e0-44d5-b68e-7d22d4e981db
+langcode: bg
+status: true
+dependencies: {  }
+id: section
+label: Section
+classes: main-section
+type: section
+weight: 0
+block_restrictions: {  }
+layout_restrictions: {  }

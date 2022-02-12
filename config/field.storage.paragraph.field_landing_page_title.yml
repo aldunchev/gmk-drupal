@@ -1,0 +1,18 @@
+uuid: c286b372-ba56-4d2f-be5f-5a01fb137ed0
+langcode: bg
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_landing_page_title
+field_name: field_landing_page_title
+entity_type: paragraph
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

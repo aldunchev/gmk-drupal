@@ -1,0 +1,78 @@
+uuid: 6ea5e94d-c98d-4fc2-9a9a-439dee884435
+langcode: bg
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.product.body
+    - field.field.node.product.field_brand
+    - field.field.node.product.field_category
+    - field.field.node.product.field_horeca
+    - field.field.node.product.field_media
+    - field.field.node.product.field_thumbnail
+    - field.field.node.product.field_units_in_pallet
+    - field.field.node.product.field_units_pack
+    - field.field.node.product.field_weight
+    - image.style.large
+    - node.type.product
+  module:
+    - media
+    - text
+    - user
+id: node.product.teaser
+targetEntityType: node
+bundle: product
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 1
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  field_brand:
+    type: entity_reference_label
+    weight: 4
+    region: content
+    label: above
+    settings:
+      link: false
+    third_party_settings: {  }
+  field_category:
+    type: entity_reference_label
+    weight: 5
+    region: content
+    label: above
+    settings:
+      link: false
+    third_party_settings: {  }
+  field_thumbnail:
+    type: media_thumbnail
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      image_style: large
+      image_link: ''
+    third_party_settings: {  }
+  field_weight:
+    type: string
+    weight: 2
+    region: content
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  links:
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_horeca: true
+  field_media: true
+  field_units_in_pallet: true
+  field_units_pack: true
+  langcode: true

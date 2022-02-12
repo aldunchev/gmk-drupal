@@ -1,0 +1,17 @@
+uuid: 0fb63e29-21e8-4065-9476-a22bf36945d2
+langcode: bg
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Product
+type: product
+description: 'Добави продукт'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

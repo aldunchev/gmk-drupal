@@ -1,0 +1,20 @@
+uuid: a04b1065-ae38-4b96-9105-93c2ad8e9dc1
+langcode: bg
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.brand
+  module:
+    - path
+id: taxonomy_term.brand.path
+field_name: path
+entity_type: taxonomy_term
+bundle: brand
+label: 'URL alias'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

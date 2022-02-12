@@ -1,0 +1,29 @@
+uuid: 12b10066-b731-4ff5-bea2-a258a3d5d893
+langcode: bg
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_horeca
+    - node.type.product
+    - taxonomy.vocabulary.horeca
+id: node.product.field_horeca
+field_name: field_horeca
+entity_type: node
+bundle: product
+label: HoReCa
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      horeca: horeca
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

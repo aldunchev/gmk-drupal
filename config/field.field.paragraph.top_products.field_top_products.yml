@@ -1,0 +1,29 @@
+uuid: 18d2ec9d-c719-470f-bfd5-4fa3ade0b104
+langcode: bg
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_top_products
+    - node.type.product
+    - paragraphs.paragraphs_type.top_products
+id: paragraph.top_products.field_top_products
+field_name: field_top_products
+entity_type: paragraph
+bundle: top_products
+label: 'Top Products'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      product: product
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

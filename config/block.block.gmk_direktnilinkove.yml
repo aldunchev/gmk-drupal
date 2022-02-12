@@ -1,0 +1,25 @@
+uuid: 83bdd28b-c5a4-42ed-93dc-d6192bf8fcee
+langcode: bg
+status: true
+dependencies:
+  content:
+    - 'block_content:quick_links:f5bc7e34-bce0-466f-b19b-4ef7bb447c65'
+  module:
+    - block_content
+  theme:
+    - gmk
+id: gmk_direktnilinkove
+theme: gmk
+region: featured_bottom
+weight: -7
+provider: null
+plugin: 'block_content:f5bc7e34-bce0-466f-b19b-4ef7bb447c65'
+settings:
+  id: 'block_content:f5bc7e34-bce0-466f-b19b-4ef7bb447c65'
+  label: 'Полезни връзки'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

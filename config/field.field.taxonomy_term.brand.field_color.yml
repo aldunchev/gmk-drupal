@@ -1,0 +1,19 @@
+uuid: ab13f48b-b1de-4080-ac2f-7e2d952290db
+langcode: bg
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_color
+    - taxonomy.vocabulary.brand
+id: taxonomy_term.brand.field_color
+field_name: field_color
+entity_type: taxonomy_term
+bundle: brand
+label: Color
+description: 'Add the color in plain text for the brand.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

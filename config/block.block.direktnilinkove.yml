@@ -1,0 +1,25 @@
+uuid: 03f9cca6-a52e-4539-a206-1a66a8f67b90
+langcode: bg
+status: true
+dependencies:
+  content:
+    - 'block_content:quick_links:f5bc7e34-bce0-466f-b19b-4ef7bb447c65'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: direktnilinkove
+theme: olivero
+region: content_below
+weight: 0
+provider: null
+plugin: 'block_content:f5bc7e34-bce0-466f-b19b-4ef7bb447c65'
+settings:
+  id: 'block_content:f5bc7e34-bce0-466f-b19b-4ef7bb447c65'
+  label: 'Директни линкове'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

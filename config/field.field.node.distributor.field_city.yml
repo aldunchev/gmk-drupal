@@ -1,0 +1,19 @@
+uuid: 57a73b9f-339f-436a-9918-23aa75d682ce
+langcode: bg
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_city
+    - node.type.distributor
+id: node.distributor.field_city
+field_name: field_city
+entity_type: node
+bundle: distributor
+label: Град
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

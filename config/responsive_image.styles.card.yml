@@ -1,0 +1,28 @@
+uuid: 981496f6-fc57-410d-b2cf-4853791e0a97
+langcode: bg
+status: true
+dependencies:
+  config:
+    - image.style.card
+  theme:
+    - gmk
+id: card
+label: Card
+image_style_mappings:
+  -
+    breakpoint_id: gmk.wide
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: card
+  -
+    breakpoint_id: gmk.narrow
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: card
+  -
+    breakpoint_id: gmk.mobile
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: card
+breakpoint_group: gmk
+fallback_image_style: card

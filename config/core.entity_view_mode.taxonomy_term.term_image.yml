@@ -1,0 +1,10 @@
+uuid: ce487b92-dc0b-4f40-99b9-7edbf4987a78
+langcode: bg
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.term_image
+label: 'Term Image'
+targetEntityType: taxonomy_term
+cache: true

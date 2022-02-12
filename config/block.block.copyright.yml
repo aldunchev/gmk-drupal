@@ -1,0 +1,25 @@
+uuid: 13ad376e-2f5e-4874-b152-de7ec477d8ed
+langcode: bg
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:63f51b96-5d1b-4733-8edc-5295525374d9'
+  module:
+    - block_content
+  theme:
+    - gmk
+id: copyright
+theme: gmk
+region: footer
+weight: -7
+provider: null
+plugin: 'block_content:63f51b96-5d1b-4733-8edc-5295525374d9'
+settings:
+  id: 'block_content:63f51b96-5d1b-4733-8edc-5295525374d9'
+  label: Copyright
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

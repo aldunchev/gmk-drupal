@@ -22,8 +22,7 @@
     }
 
     @include breakpoint($bp-large) {
-      bottom: 100px;
-      left: 200px;
+      left: 400px;
       right: auto;
       min-width: 615px;
       max-width: 800px;

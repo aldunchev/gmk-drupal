@@ -1,0 +1,19 @@
+uuid: 9a3bf5f5-270d-4c09-8109-077dcc567db1
+langcode: bg
+status: true
+dependencies:
+  module:
+    - path
+    - user
+id: user.user.path
+field_name: path
+entity_type: user
+bundle: user
+label: 'URL синоними'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

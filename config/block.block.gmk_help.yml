@@ -1,0 +1,22 @@
+uuid: 4aa9f0a0-298c-4e0f-8c23-09e18dd8cbd5
+langcode: bg
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - gmk
+_core:
+  default_config_hash: VV9kqYMqLSoPSMw-XVpo0auKK0RfnbQTkqYPVQxqaV0
+id: gmk_help
+theme: gmk
+region: highlighted
+weight: -1
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

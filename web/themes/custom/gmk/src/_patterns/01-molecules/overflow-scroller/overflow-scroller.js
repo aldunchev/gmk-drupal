@@ -28,4 +28,3 @@ const overflowScroller = function(direction) {
     Math.round(scrollDimension) === Math.round(scrollPosition + clientDimension) ? overflowWrapper.classList.add('overflow-wrapper--end') : overflowWrapper.classList.remove('overflow-wrapper--end');
   });
 }
-

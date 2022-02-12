@@ -1,0 +1,20 @@
+uuid: 11ba5235-d888-4af6-86ab-4bcaad5bc0bc
+langcode: bg
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - taxonomy
+id: paragraph.field_info_item
+field_name: field_info_item
+entity_type: paragraph
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,9 @@
+mode: process_untranslated
+_core:
+  default_config_hash: NlDIUdPDDX0V4owUbxlYWoCwMZv_Wnv-wqzepvT5drs
+langcode: bg
+untranslated_handler: no_link
+current_language_mode: default
+hide_single_link: false
+hide_single_link_block: 0
+show_langcode: true

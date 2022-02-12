@@ -1,0 +1,44 @@
+uuid: 831bc59d-ac14-4f8b-be08-e998779461b9
+langcode: bg
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.top_products.field_landing_page_title
+    - field.field.paragraph.top_products.field_paragraph_title
+    - field.field.paragraph.top_products.field_top_products
+    - paragraphs.paragraphs_type.top_products
+  module:
+    - text
+id: paragraph.top_products.default
+targetEntityType: paragraph
+bundle: top_products
+mode: default
+content:
+  field_landing_page_title:
+    weight: 1
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_paragraph_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_top_products:
+    weight: 2
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,25 @@
+uuid: f43b8b34-2587-4477-b3c9-36e917b025e8
+langcode: bg
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:9874d107-feec-4009-8ecf-070c94c296c4'
+  module:
+    - block_content
+  theme:
+    - gmk
+id: kontakti
+theme: gmk
+region: footer_mega
+weight: -6
+provider: null
+plugin: 'block_content:9874d107-feec-4009-8ecf-070c94c296c4'
+settings:
+  id: 'block_content:9874d107-feec-4009-8ecf-070c94c296c4'
+  label: Контакти
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

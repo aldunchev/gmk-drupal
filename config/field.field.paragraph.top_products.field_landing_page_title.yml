@@ -1,0 +1,23 @@
+uuid: 36da0ebf-a905-4b88-a364-35a031cca643
+langcode: bg
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_landing_page_title
+    - paragraphs.paragraphs_type.top_products
+id: paragraph.top_products.field_landing_page_title
+field_name: field_landing_page_title
+entity_type: paragraph
+bundle: top_products
+label: 'Landing page title'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

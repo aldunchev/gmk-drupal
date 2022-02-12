@@ -1,0 +1,21 @@
+uuid: 9c14393c-2aa6-4a70-8573-12d4171a91ed
+langcode: bg
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_description
+    - paragraphs.paragraphs_type.hero_item
+  module:
+    - text
+id: paragraph.hero_item.field_description
+field_name: field_description
+entity_type: paragraph
+bundle: hero_item
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
