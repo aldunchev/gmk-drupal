@@ -3,29 +3,26 @@
 .hero {
   position: relative;
 
+  @include breakpoint($bp-medium) {
+    top: -70px;
+  }
+
   &__summary {
-    position: absolute;
-    top: 50%;
-    left: 20px;
-    right: 20px;
-    transform: translateY(-50%);
+    padding: 32px;
     color: $color-white;
-    padding: 48px 32px;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: $border-radius;
+    background-color: $color-white;
+    border-radius: 0 0 $border-radius $border-radius;
+    box-shadow: $box-shadow;
 
     @include breakpoint($bp-medium) {
-      top: auto;
-      bottom: 50px;
-      right: auto;
-      transform: none;
-    }
-
-    @include breakpoint($bp-large) {
-      left: 400px;
+      position: absolute;
+      bottom: 100px;
+      left: 200px;
       right: auto;
       min-width: 615px;
       max-width: 800px;
+      padding: 48px 32px;
+      background-color: rgba(0, 0, 0, 0.6);
     }
   }
 
@@ -33,14 +30,21 @@
     img {
       display: block;
       width: 100%;
-      height: 100%;
-      object-fit: contain;
+
+      @include breakpoint($bp-large) {
+        height: calc(100vh);
+        object-fit: cover;
+      }
     }
   }
 
   .field--name-field-paragraph-title {
     margin-top: 0;
-    color: $color-white;
+    color: $primary-text-color;
+
+    @include breakpoint($bp-medium) {
+      color: $color-white;
+    }
 
     @include breakpoint($bp-large) {
       font-size: $font-size-h2-landing;

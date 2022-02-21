@@ -5,12 +5,12 @@ dependencies: {  }
 name: hero
 label: 'Hero (1920x800)'
 effects:
-  a5ad8b56-777e-4ad1-8d7d-354d0f0fa03a:
-    uuid: a5ad8b56-777e-4ad1-8d7d-354d0f0fa03a
-    id: image_scale_and_crop
+  3f6d3de0-7432-41df-9dce-21664ac21cac:
+    uuid: 3f6d3de0-7432-41df-9dce-21664ac21cac
+    id: image_scale
     weight: 2
     data:
       width: 1920
-      height: 800
-      anchor: center-center
+      height: null
+      upscale: false
 pipeline: __default__

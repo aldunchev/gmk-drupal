@@ -9,7 +9,7 @@
   position: sticky;
   top: 0;
   z-index: 91;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
@@ -162,7 +162,7 @@
     @include breakpoint($bp-large) {
       display: none;
     }
-    
+
     @include breakpoint(max-width $bp-large - 1) {
       position: fixed;
       top: 0;
@@ -233,7 +233,7 @@
 // TODO: Move to separate lib.
 .block-language {
   position: relative;
-  
+
   @include breakpoint($bp-large) {
     padding-left: 28px;
 

@@ -3,13 +3,14 @@ langcode: bg
 status: true
 dependencies: {  }
 name: hero_mobile
-label: 'Hero Mobile (600x700)'
+label: 'Hero Mobile (600)'
 effects:
-  677ba60b-419d-48d2-a39b-589f7feede4a:
-    uuid: 677ba60b-419d-48d2-a39b-589f7feede4a
-    id: image_scale_and_crop
-    weight: 1
+  ec5cddb1-a09a-489f-8757-2547c441a8fe:
+    uuid: ec5cddb1-a09a-489f-8757-2547c441a8fe
+    id: image_scale
+    weight: 2
     data:
       width: 600
-      height: 700
-      anchor: center-center
+      height: null
+      upscale: false
+pipeline: __default__
