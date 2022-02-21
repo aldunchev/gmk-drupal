@@ -1,0 +1,57 @@
+/**
+ * @file
+ * This is a copy of mac3_theme, change according to the brand specific.
+ */
+.distributors-list {
+  position: relative; }
+  @media (min-width: 1000px) {
+    .distributors-list .view-content {
+      max-height: 600px; } }
+
+@media (max-width: 999px) {
+  .distributors-map {
+    display: none; } }
+
+.distributors-map--fixed {
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 101; }
+  .distributors-map--fixed .geolocation-map-container {
+    height: 100vh !important; }
+
+.distributors-map .show-list {
+  z-index: 109; }
+
+.show-map,
+.show-list {
+  position: fixed;
+  top: 540px;
+  right: 8px;
+  z-index: 9;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1), 0 5px 5px 0 rgba(0, 0, 0, 0.1);
+  cursor: pointer; }
+  @media (min-width: 1000px) {
+    .show-map,
+    .show-list {
+      display: none; } }
+  .show-map .material-icons-outlined,
+  .show-list .material-icons-outlined {
+    margin-left: 4px; }
+
+@keyframes mouse-scroll {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: .5; }
+  100% {
+    opacity: 1; } }
+
+.field--name-field-city {
+  font-size: 1.5rem; }

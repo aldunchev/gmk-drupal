@@ -1,0 +1,41 @@
+/**
+ * @file
+ * Styles for horizontal scroll js.
+ */
+/**
+ * @file
+ * This is a copy of mac3_theme, change according to the brand specific.
+ */
+.overflow-wrapper {
+  --overflow-gradient: linear-gradient(to right, rgba(240, 240, 240, 0.2) 0%, rgb(240, 240, 240) 100%);
+  --overflow-after-width: 50px;
+  position: relative; }
+  @media (max-width: 1399px) {
+    .overflow-wrapper--horizontal::after {
+      content: '';
+      display: block;
+      width: var(--overflow-after-width);
+      height: 100%;
+      position: absolute;
+      top: 0;
+      right: 0;
+      background: var(--overflow-gradient); } }
+  .overflow-wrapper--horizontal .overflow-element {
+    overflow-x: auto;
+    white-space: nowrap; }
+  .overflow-wrapper--vertical .arrow-down {
+    display: none; }
+    @media (min-width: 1000px) {
+      .overflow-wrapper--vertical .arrow-down {
+        display: block;
+        position: absolute;
+        left: 50%;
+        bottom: 10px;
+        transform: translateX(-50%);
+        animation: mouse-scroll 1s infinite;
+        animation-direction: alternate; } }
+  .overflow-wrapper--end::after,
+  .overflow-wrapper--end .arrow-down {
+    display: none; }
+  .overflow-wrapper--no-scroll .arrow-down {
+    display: none; }

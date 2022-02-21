@@ -1,0 +1,17 @@
+/**
+ * @file
+ * This is a copy of mac3_theme, change according to the brand specific.
+ */
+.node--view-mode-card {
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1), 0 5px 5px 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 6px;
+  height: 100%; }
+  .node--view-mode-card .card__info {
+    padding: 24px; }
+  .node--view-mode-card .card__title {
+    margin-top: 0;
+    font-size: 24px; }
+  .node--view-mode-card img {
+    display: block;
+    border-radius: 6px 6px 0 0; }

@@ -1,0 +1,35 @@
+/**
+ * @file
+ * This is a copy of mac3_theme, change according to the brand specific.
+ */
+.card-carousel {
+  position: relative; }
+  .card-carousel:hover .tns-controls button {
+    opacity: 1; }
+  .card-carousel__inner > .field__item {
+    padding: 0 8px; }
+  .card-carousel .tns-inner {
+    padding-bottom: 24px; }
+  .card-carousel .tns-controls button {
+    opacity: 0;
+    transition: opacity 0.3s;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    width: 48px;
+    height: 48px;
+    background-color: #fff;
+    border: 1px solid #cacaca;
+    border-radius: 6px;
+    font-size: 0;
+    padding: 4px;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: center; }
+  .card-carousel .tns-controls button[data-controls="prev"] {
+    left: 0;
+    background-image: url(../../../icons/left.svg); }
+  .card-carousel .tns-controls button[data-controls="next"] {
+    right: 0;
+    background-image: url(../../../icons/right.svg); }

@@ -1,0 +1,40 @@
+/**
+ * @file
+ * This is a copy of mac3_theme, change according to the brand specific.
+ */
+.site-footer {
+  background-color: #fff; }
+  .site-footer .region-footer-mega {
+    display: flex; }
+    @media (max-width: 1199px) {
+      .site-footer .region-footer-mega {
+        flex-wrap: wrap;
+        padding: 0 16px; } }
+    .site-footer .region-footer-mega > .block {
+      flex: 1 0 50%; }
+      @media (min-width: 1200px) {
+        .site-footer .region-footer-mega > .block {
+          flex: 1 0 33.33333%; } }
+      .site-footer .region-footer-mega > .block h2 {
+        margin-bottom: 16px;
+        font-weight: 600;
+        font-size: 18px; }
+  .site-footer .menu {
+    list-style: none;
+    padding-left: 0; }
+
+.footer--mega {
+  padding-top: 56px;
+  padding-bottom: 56px; }
+
+.footer--basic {
+  padding: 8px 0;
+  background-color: var(--color-secondary);
+  color: #fff; }
+  .footer--basic .region-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+  @media (max-width: 1199px) {
+    .footer--basic .block-system-branding-block img {
+      max-width: 80px; } }

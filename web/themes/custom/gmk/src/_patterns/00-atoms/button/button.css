@@ -1,0 +1,48 @@
+/**
+ * @file
+ * This is a copy of mac3_theme, change according to the brand specific.
+ */
+.button {
+  display: inline-block;
+  font-size: 16px;
+  color: #fff;
+  padding: 16px 24px;
+  line-height: 1;
+  text-align: center;
+  border-radius: 6px;
+  font-weight: 600;
+  text-transform: uppercase; }
+  .button:hover {
+    text-decoration: none; }
+  .button--primary {
+    transition: background-color 0.2s;
+    background-color: var(--color-primary); }
+    .button--primary:hover {
+      background-color: var(--color-primary-hover); }
+  .button--secondary {
+    padding: 8px 16px;
+    border: 1px solid var(--color-primary);
+    text-transform: none;
+    background-color: #fff;
+    color: #212121;
+    transition: all 0.3s; }
+    .button--secondary:hover {
+      background-color: var(--color-primary);
+      color: #fff; }
+  .button--cta {
+    padding-right: 0;
+    padding-left: 0;
+    border-bottom: 1px solid var(--color-primary);
+    border-radius: 0;
+    color: #212121;
+    transition: border 0.3s, padding 0.3s; }
+    .button--cta svg {
+      width: 16px;
+      height: 16px;
+      margin-left: 14px;
+      fill: var(--color-primary);
+      transition: transform 0.3s; }
+    .button--cta:hover {
+      padding-right: 10px; }
+      .button--cta:hover svg {
+        transform: translateX(10px); }

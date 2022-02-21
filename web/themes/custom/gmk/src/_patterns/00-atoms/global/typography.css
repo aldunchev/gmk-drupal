@@ -1,0 +1,105 @@
+/**
+ * @file
+ * Site typography styles.
+ */
+/**
+ * @file
+ * This is a copy of mac3_theme, change according to the brand specific.
+ */
+h1,
+.h1, h2,
+.h2, h3,
+.h3, h4,
+.h4, h5,
+.h5, h6 {
+  margin: 16px 0 14px;
+  font-family: "Nunito", sans-serif;
+  line-height: 1.25;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0;
+  color: #212121; }
+
+.main-section .h2--large {
+  position: relative; }
+  .main-section .h2--large:after {
+    display: block;
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 2px;
+    background-color: var(--color-primary); }
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #fff; }
+
+a {
+  text-decoration: none;
+  color: #212121; }
+  a:hover {
+    text-decoration: underline; }
+
+h1,
+.h1 {
+  margin: 16px 0 32px;
+  font-size: 32px; }
+  @media (min-width: 1000px) {
+    h1,
+    .h1 {
+      font-size: 36px; } }
+
+h2,
+.h2 {
+  margin: 16px 0 32px;
+  font-size: 28px; }
+  @media (min-width: 1000px) {
+    h2,
+    .h2 {
+      font-size: 32px; } }
+
+h3,
+.h3 {
+  font-size: 24px; }
+  @media (min-width: 1000px) {
+    h3,
+    .h3 {
+      font-size: 28px; } }
+
+h4,
+.h4 {
+  font-size: 22px; }
+  @media (min-width: 1000px) {
+    h4,
+    .h4 {
+      font-size: 24px; } }
+
+h5,
+.h5 {
+  font-size: 20px; }
+  @media (min-width: 1000px) {
+    h5,
+    .h5 {
+      font-size: 22px; } }
+
+h6,
+h6 {
+  font-size: 18px; }
+  @media (min-width: 1000px) {
+    h6,
+    h6 {
+      font-size: 20px; } }
+
+.main-section .h2--large {
+  text-align: center;
+  font-size: 28px;
+  margin-top: 0; }
+  @media (min-width: 1000px) {
+    .main-section .h2--large {
+      font-size: 50px; } }

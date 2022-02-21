@@ -1,0 +1,15 @@
+/**
+ * @file
+ * Styles for vertical spacing.
+ */
+/**
+ * @file
+ * This is a copy of mac3_theme, change according to the brand specific.
+ */
+.main-section {
+  padding-top: 36px;
+  padding-bottom: 36px; }
+  @media (min-width: 1000px) {
+    .main-section {
+      padding-top: 56px;
+      padding-bottom: 56px; } }

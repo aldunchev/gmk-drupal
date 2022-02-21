@@ -1,0 +1,46 @@
+/**
+ * @file
+ * General purpose grid styles.
+ */
+/**
+ * @file
+ * This is a copy of mac3_theme, change according to the brand specific.
+ */
+.container {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 8px;
+  padding-right: 8px; }
+
+.container--small {
+  max-width: 800px; }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: -8px;
+  margin-right: -8px; }
+
+div[class*="grid-col-"] {
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-bottom: 24px;
+  flex-grow: 0;
+  flex-shrink: 1; }
+
+@media (min-width: 1200px) {
+  .grid-col-lg-3 {
+    flex-basis: 25%; } }
+
+@media (min-width: 1200px) {
+  .grid-col-lg-4 {
+    flex-basis: 33.333333%; } }
+
+@media (min-width: 1200px) {
+  .grid-col-lg-6 {
+    flex-basis: 50%; } }
+
+.layout--twocol-section .layout__region {
+  padding: 0 8px; }

@@ -1,0 +1,41 @@
+/**
+ * @file
+ * Styles for cta card.
+ * Used by taxonomy listing.
+ */
+/**
+ * @file
+ * This is a copy of mac3_theme, change according to the brand specific.
+ */
+.card-cta {
+  position: relative;
+  border-radius: 6px;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1), 0 5px 5px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  height: 100%; }
+  @media (min-width: 1200px) {
+    .card-cta:hover img {
+      transform: scale(1.02); } }
+  .card-cta__title {
+    color: #fff;
+    font-weight: 600;
+    font-size: 36px;
+    margin: 0;
+    text-align: center; }
+    .card-cta__title a {
+      color: inherit; }
+      .card-cta__title a:hover {
+        text-decoration: none; }
+  .card-cta__link {
+    display: block; }
+  .card-cta__info {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    transform: translateY(-50%);
+    padding: 8px;
+    background-color: rgba(var(--color-secondary-rgb), 0.3); }
+  .card-cta img {
+    transition: transform 0.3s;
+    border-radius: 6px; }

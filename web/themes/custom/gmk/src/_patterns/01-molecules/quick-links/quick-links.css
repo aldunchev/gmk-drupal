@@ -1,0 +1,12 @@
+/**
+ * @file
+ * This is a copy of mac3_theme, change according to the brand specific.
+ */
+.block-type__quick-links {
+  text-align: center; }
+  .block-type__quick-links .field--name-body {
+    margin: 16px 0;
+    font-size: 18px; }
+  .block-type__quick-links .field--name-field-links {
+    display: flex;
+    justify-content: center; }

@@ -1,0 +1,30 @@
+/**
+ * @file
+ * Brands paragraph styles.
+ */
+/**
+ * @file
+ * This is a copy of mac3_theme, change according to the brand specific.
+ */
+@media (max-width: 1399px) {
+  .brands-wrapper {
+    position: relative;
+    max-width: 90%;
+    margin: auto; } }
+
+.field--name-field-brands {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  @media (max-width: 1399px) {
+    .field--name-field-brands {
+      padding: 8px 0; }
+      .field--name-field-brands img {
+        min-width: 100px; } }
+  .field--name-field-brands .field__item {
+    margin-right: 16px; }
+    .field--name-field-brands .field__item:last-child {
+      margin-right: 0; }
+  .field--name-field-brands img {
+    width: auto;
+    max-height: 50px; }
