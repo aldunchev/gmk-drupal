@@ -8,8 +8,8 @@ name: gmk
 label: GMK
 processors:
   88574ccb-c6d5-4afd-828b-4975e5be6538:
-    uuid: 88574ccb-c6d5-4afd-828b-4975e5be6538
     id: imageapi_optimize_webp
-    weight: 1
     data:
       quality: '75'
+    weight: 1
+    uuid: 88574ccb-c6d5-4afd-828b-4975e5be6538

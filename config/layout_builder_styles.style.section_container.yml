@@ -6,6 +6,6 @@ id: section_container
 label: Section+Container
 classes: "main-section\r\ncontainer"
 type: section
-weight: 0
 block_restrictions: {  }
 layout_restrictions: {  }
+weight: 0

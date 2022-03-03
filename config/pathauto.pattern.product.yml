@@ -11,12 +11,12 @@ pattern: '/product/[node:title]'
 selection_criteria:
   f52f01cc-1b39-430e-8c83-36364197e038:
     id: node_type
-    bundles:
-      product: product
     negate: false
+    uuid: f52f01cc-1b39-430e-8c83-36364197e038
     context_mapping:
       node: node
-    uuid: f52f01cc-1b39-430e-8c83-36364197e038
+    bundles:
+      product: product
 selection_logic: and
 weight: -5
 relationships: {  }

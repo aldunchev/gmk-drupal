@@ -1,5 +1,5 @@
-admin: gin
-default: gmk
 _core:
   default_config_hash: fOjer9hADYYnbCJVZMFZIIM1azTFWyg84ZkFDHfAbUg
 langcode: bg
+admin: gin
+default: gmk

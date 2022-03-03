@@ -15,10 +15,10 @@ bundle: landing_page
 mode: teaser
 content:
   links:
-    weight: 1
-    region: content
     settings: {  }
     third_party_settings: {  }
+    weight: 1
+    region: content
 hidden:
   field_paragraphs: true
   langcode: true

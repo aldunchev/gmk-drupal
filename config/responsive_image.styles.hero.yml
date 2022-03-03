@@ -12,19 +12,19 @@ id: hero
 label: Hero
 image_style_mappings:
   -
-    breakpoint_id: gmk.wide
-    multiplier: 1x
     image_mapping_type: image_style
     image_mapping: hero
-  -
-    breakpoint_id: gmk.narrow
+    breakpoint_id: gmk.wide
     multiplier: 1x
+  -
     image_mapping_type: image_style
     image_mapping: hero_tablet
-  -
-    breakpoint_id: gmk.mobile
+    breakpoint_id: gmk.narrow
     multiplier: 1x
+  -
     image_mapping_type: image_style
     image_mapping: hero_mobile
+    breakpoint_id: gmk.mobile
+    multiplier: 1x
 breakpoint_group: gmk
 fallback_image_style: hero_mobile

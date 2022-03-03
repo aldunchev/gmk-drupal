@@ -10,19 +10,19 @@ id: card_square_cropped
 label: 'Card square cropped'
 image_style_mappings:
   -
+    image_mapping_type: image_style
+    image_mapping: card_square_cropped
     breakpoint_id: gmk.wide
     multiplier: 1x
+  -
     image_mapping_type: image_style
     image_mapping: card_square_cropped
-  -
     breakpoint_id: gmk.narrow
     multiplier: 1x
+  -
     image_mapping_type: image_style
     image_mapping: card_square_cropped
-  -
     breakpoint_id: gmk.mobile
     multiplier: 1x
-    image_mapping_type: image_style
-    image_mapping: card_square_cropped
 breakpoint_group: gmk
 fallback_image_style: card_square_cropped

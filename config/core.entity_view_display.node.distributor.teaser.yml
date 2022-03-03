@@ -19,12 +19,12 @@ mode: teaser
 content:
   field_city:
     type: string
-    weight: 0
-    region: content
     label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
+    weight: 0
+    region: content
 hidden:
   field_address: true
   field_email: true

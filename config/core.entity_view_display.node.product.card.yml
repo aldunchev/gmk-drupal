@@ -19,8 +19,8 @@ dependencies:
     - user
 third_party_settings:
   layout_builder:
-    allow_custom: false
     enabled: false
+    allow_custom: false
 id: node.product.card
 targetEntityType: node
 bundle: product
@@ -28,13 +28,13 @@ mode: card
 content:
   field_thumbnail:
     type: entity_reference_entity_view
-    weight: 0
-    region: content
     label: hidden
     settings:
-      view_mode: card
+      view_mode: card_square_cropped
       link: false
     third_party_settings: {  }
+    weight: 0
+    region: content
 hidden:
   body: true
   field_brand: true
