@@ -3,13 +3,14 @@ langcode: bg
 status: true
 dependencies: {  }
 name: hero_tablet
-label: 'Hero tablet (1000x417)'
+label: 'Hero tablet (1000)'
 effects:
-  7047c4ed-ec64-4d22-8d81-6455afcd4411:
-    uuid: 7047c4ed-ec64-4d22-8d81-6455afcd4411
-    id: image_scale_and_crop
-    weight: 1
+  11acf25c-ad42-4a6c-b6a7-5403b7b38a7b:
+    uuid: 11acf25c-ad42-4a6c-b6a7-5403b7b38a7b
+    id: image_scale
+    weight: 2
     data:
       width: 1000
-      height: 417
-      anchor: center-center
+      height: null
+      upscale: false
+pipeline: __default__
