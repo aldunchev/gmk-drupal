@@ -6,12 +6,11 @@
   position: relative; }
   @media (min-width: 1000px) {
     .hero {
-      top: -70px; } }
+      margin-top: -70px; } }
   .hero__summary {
     padding: 32px;
     color: #fff;
     background-color: #fff;
-    border-radius: 0 0 6px 6px;
     box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1), 0 5px 5px 0 rgba(0, 0, 0, 0.1); }
     @media (min-width: 1000px) {
       .hero__summary {
@@ -30,6 +29,16 @@
       .hero__media img {
         height: calc(100vh);
         object-fit: cover; } }
+  .hero .hero__show-more {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 40px;
+    animation: mouse-scroll 1s infinite;
+    animation-direction: alternate;
+    cursor: pointer; }
   .hero .field--name-field-paragraph-title {
     margin-top: 0;
     color: #212121; }

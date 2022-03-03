@@ -44,14 +44,3 @@
   .show-map .material-icons-outlined,
   .show-list .material-icons-outlined {
     margin-left: 4px; }
-
-@keyframes mouse-scroll {
-  0% {
-    opacity: 0; }
-  50% {
-    opacity: .5; }
-  100% {
-    opacity: 1; } }
-
-.field--name-field-city {
-  font-size: 1.5rem; }

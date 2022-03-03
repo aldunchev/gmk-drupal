@@ -1,4 +1,14 @@
 (function () {
+  const showMore = document.querySelector('.js-show-more');
+
+  showMore.addEventListener('click', (e) => {
+    const heroItem = e.target.parentNode;
+    window.scrollTo({
+      top: heroItem.clientHeight - 70,
+      behavior: 'smooth',
+    })
+  });
+
   const container = document.querySelector('.field--name-field-hero-items');
 
   if (!container) {
@@ -15,4 +25,3 @@
     speed: 300,
   });
 })();
-

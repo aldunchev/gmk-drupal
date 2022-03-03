@@ -35,7 +35,7 @@ footer:
 
 tiny-slider:
   versinon: 2.0
-  js: 
+  js:
     node_modules/tiny-slider/dist/min/tiny-slider.js: {}
   css:
     base:

@@ -4,14 +4,13 @@
   position: relative;
 
   @include breakpoint($bp-medium) {
-    top: -70px;
+    margin-top: -70px;
   }
 
   &__summary {
     padding: 32px;
     color: $color-white;
     background-color: $color-white;
-    border-radius: 0 0 $border-radius $border-radius;
     box-shadow: $box-shadow;
 
     @include breakpoint($bp-medium) {
@@ -36,6 +35,18 @@
         object-fit: cover;
       }
     }
+  }
+
+  .hero__show-more {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: $color-white;
+    font-size: $font-size-xxl;
+    animation: mouse-scroll 1s infinite;
+    animation-direction: alternate;
+    cursor: pointer;
   }
 
   .field--name-field-paragraph-title {
