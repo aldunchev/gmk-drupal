@@ -2,11 +2,11 @@ uuid: 4b43d342-f32c-4ce1-bc37-5a63848ba134
 langcode: bg
 status: true
 dependencies:
+  module:
+    - pathauto
   enforced:
     module:
       - node
-  module:
-    - pathauto
 _core:
   default_config_hash: lno8QThS348UX-kaUsagJtCnuPHKLXYnTQiF_9HSDWA
 id: pathauto_update_alias_node

@@ -17,20 +17,20 @@ mode: default
 content:
   description:
     type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
     weight: 1
     region: content
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
   field_icon:
-    weight: 0
+    type: material_icons
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    type: material_icons
+    weight: 0
     region: content
   field_taxonomy_link:
-    weight: 2
+    type: link
     label: hidden
     settings:
       trim_length: 80
@@ -39,7 +39,7 @@ content:
       rel: ''
       target: ''
     third_party_settings: {  }
-    type: link
+    weight: 2
     region: content
 hidden:
   langcode: true

@@ -21,14 +21,14 @@ default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
-    negate: 0
     target_bundles:
       hero_item: hero_item
+    negate: 0
     target_bundles_drag_drop:
       hero:
         weight: 4
         enabled: false
       hero_item:
-        enabled: true
         weight: 3
+        enabled: true
 field_type: entity_reference_revisions

@@ -17,8 +17,8 @@ plugin: 'block_content:f5bc7e34-bce0-466f-b19b-4ef7bb447c65'
 settings:
   id: 'block_content:f5bc7e34-bce0-466f-b19b-4ef7bb447c65'
   label: 'Полезни връзки'
-  provider: block_content
   label_display: visible
+  provider: block_content
   status: true
   info: ''
   view_mode: full

@@ -14,8 +14,8 @@ dependencies:
     - link
 third_party_settings:
   layout_builder:
-    allow_custom: false
     enabled: false
+    allow_custom: false
 id: taxonomy_term.brand.cta_card
 targetEntityType: taxonomy_term
 bundle: brand
@@ -23,17 +23,15 @@ mode: cta_card
 content:
   field_media:
     type: entity_reference_entity_view
-    weight: 0
     label: hidden
     settings:
       view_mode: card_square_cropped
       link: false
     third_party_settings: {  }
+    weight: 0
     region: content
   field_taxonomy_link:
     type: link
-    weight: 1
-    region: content
     label: hidden
     settings:
       trim_length: 80
@@ -42,6 +40,8 @@ content:
       rel: ''
       target: ''
     third_party_settings: {  }
+    weight: 1
+    region: content
 hidden:
   description: true
   field_color: true

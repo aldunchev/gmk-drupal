@@ -20,26 +20,26 @@ content:
     weight: 1
     region: content
     settings:
-      placeholder: ''
       rows: 5
+      placeholder: ''
     third_party_settings: {  }
   field_icon:
+    type: material_icons
     weight: 2
+    region: content
     settings:
       allow_style: true
       default_style: ''
       allow_classes: true
     third_party_settings: {  }
-    type: material_icons
-    region: content
   field_taxonomy_link:
+    type: link_default
     weight: 3
+    region: content
     settings:
       placeholder_url: ''
       placeholder_title: ''
     third_party_settings: {  }
-    type: link_default
-    region: content
   name:
     type: string_textfield
     weight: 0

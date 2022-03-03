@@ -16,8 +16,8 @@ dependencies:
     - svg_image
 third_party_settings:
   layout_builder:
-    allow_custom: false
     enabled: false
+    allow_custom: false
 id: taxonomy_term.brand.term_image
 targetEntityType: taxonomy_term
 bundle: brand
@@ -25,17 +25,15 @@ mode: term_image
 content:
   field_image:
     type: image
-    weight: 0
-    region: content
     label: hidden
     settings:
-      image_style: medium
       image_link: ''
+      image_style: medium
     third_party_settings: {  }
+    weight: 0
+    region: content
   field_taxonomy_link:
     type: link
-    weight: 1
-    region: content
     label: hidden
     settings:
       trim_length: 80
@@ -44,6 +42,8 @@ content:
       rel: ''
       target: ''
     third_party_settings: {  }
+    weight: 1
+    region: content
 hidden:
   description: true
   field_color: true

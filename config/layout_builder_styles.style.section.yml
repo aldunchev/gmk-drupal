@@ -6,6 +6,6 @@ id: section
 label: Section
 classes: main-section
 type: section
-weight: 0
 block_restrictions: {  }
 layout_restrictions: {  }
+weight: 0

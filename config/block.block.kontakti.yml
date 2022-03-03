@@ -17,8 +17,8 @@ plugin: 'block_content:9874d107-feec-4009-8ecf-070c94c296c4'
 settings:
   id: 'block_content:9874d107-feec-4009-8ecf-070c94c296c4'
   label: Контакти
-  provider: block_content
   label_display: visible
+  provider: block_content
   status: true
   info: ''
   view_mode: full

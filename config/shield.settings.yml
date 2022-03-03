@@ -1,0 +1,12 @@
+_core:
+  default_config_hash: yHBuI_J_kdrugm0JRNsxHODZ0qQyPzejI6r1ZPacK5Q
+langcode: bg
+shield_enable: true
+credential_provider: shield
+credentials:
+  shield:
+    user: gmkgroup
+    pass: gmkgroup
+allow_cli: true
+print: Hello!
+whitelist: ''

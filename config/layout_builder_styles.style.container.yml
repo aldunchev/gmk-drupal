@@ -6,6 +6,6 @@ id: container
 label: Container
 classes: container
 type: section
-weight: 0
 block_restrictions: {  }
 layout_restrictions: {  }
+weight: 0

@@ -15,14 +15,14 @@ bundle: quick_links
 mode: default
 content:
   body:
-    label: hidden
     type: text_default
-    weight: 0
+    label: hidden
     settings: {  }
     third_party_settings: {  }
+    weight: 0
     region: content
   field_links:
-    weight: 1
+    type: link
     label: hidden
     settings:
       trim_length: 80
@@ -31,7 +31,7 @@ content:
       rel: ''
       target: ''
     third_party_settings: {  }
-    type: link
+    weight: 1
     region: content
 hidden:
   langcode: true

@@ -15,20 +15,20 @@ bundle: top_products
 mode: default
 content:
   field_paragraph_title:
-    weight: 0
+    type: text_default
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    type: text_default
+    weight: 0
     region: content
   field_top_products:
-    weight: 1
+    type: entity_reference_entity_view
     label: hidden
     settings:
       view_mode: card
       link: false
     third_party_settings: {  }
-    type: entity_reference_entity_view
+    weight: 1
     region: content
 hidden:
   field_landing_page_title: true
