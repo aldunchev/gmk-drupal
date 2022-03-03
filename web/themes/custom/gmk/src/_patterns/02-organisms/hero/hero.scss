@@ -43,10 +43,11 @@
     left: 50%;
     transform: translateX(-50%);
     color: $color-white;
-    font-size: $font-size-xxl;
+    font-size: 55px;
     animation: mouse-scroll 1s infinite;
     animation-direction: alternate;
     cursor: pointer;
+    text-shadow: 0px -1px $color-secondary;
   }
 
   .field--name-field-paragraph-title {

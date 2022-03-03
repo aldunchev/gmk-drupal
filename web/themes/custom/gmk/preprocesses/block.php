@@ -45,6 +45,8 @@ function gmk_theme_suggestions_block_alter(array &$suggestions, array $variables
  */
 function gmk_preprocess_block(&$variables) {
   $content = $variables['elements']['content'];
+  $plugin_id = $variables['elements']['#plugin_id'];
+
   if (isset($content['#block_content'])) {
     $bundle = $content['#block_content']->bundle();
     $variables['attributes']['class'][] = 'block-type' . '__' . str_replace('_', '-', $bundle);
@@ -54,5 +56,11 @@ function gmk_preprocess_block(&$variables) {
         $variables['#attached']['library'][] = 'gmk/hero';
         break;
     }
+  }
+
+  switch ($plugin_id) {
+    case 'local_tasks_block':
+      $variables['attributes']['class'][] = 'fixed z-10 bottom-0 right-0 bg-white box-shadow';
+      break;
   }
 }

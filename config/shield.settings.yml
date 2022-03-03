@@ -1,12 +1,18 @@
 _core:
-  default_config_hash: yHBuI_J_kdrugm0JRNsxHODZ0qQyPzejI6r1ZPacK5Q
+  default_config_hash: FLJZME3II5fjmMSrdEvJHp95ZJf8V_X0jbX0VdVU1BU
 langcode: bg
-shield_enable: true
+shield_enable: false
 credential_provider: shield
 credentials:
   shield:
     user: gmkgroup
     pass: gmkgroup
 allow_cli: true
+debug_header: false
+unset_basic_auth_headers: true
 print: Hello!
-whitelist: ''
+method: 0
+paths: ''
+allowlist: ''
+http_method_allowlist: {  }
+domains: ''
