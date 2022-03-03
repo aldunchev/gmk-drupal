@@ -1,7 +1,7 @@
 _core:
   default_config_hash: FLJZME3II5fjmMSrdEvJHp95ZJf8V_X0jbX0VdVU1BU
 langcode: bg
-shield_enable: false
+shield_enable: true
 credential_provider: shield
 credentials:
   shield:
